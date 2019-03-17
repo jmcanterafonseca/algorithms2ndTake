@@ -17,7 +17,6 @@ public class Solution_1_5_CCI_One_Away {
             throw new RuntimeException("Input strings cannot be null");
         }
 
-        // If the length different is greater than one then we have finished
         int length1 = str1.length();
         int length2 = str2.length();
 
@@ -34,6 +33,7 @@ public class Solution_1_5_CCI_One_Away {
 
         int difference = Math.abs(length1 - length2);
 
+        // If the length different is greater than one then we have finished
         if (difference > 1) {
             return false;
         }
