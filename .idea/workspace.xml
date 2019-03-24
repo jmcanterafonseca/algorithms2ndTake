@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="" />
+    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Solution_1_2_CCI_Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution_1_2_CCI_Permutation.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +27,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_1_2_CCI_Permutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution_1_2_CCI_Permutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution_1_2_CCI_Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="342">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_1_3_CCI_URLify.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Solution_1_3_CCI_URLify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_1_3_CCI_URLify.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Test_1_3_CCI_URLify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +60,8 @@
       <file leaf-file-name="Test_1_2_CCI_Permutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Test_1_2_CCI_Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-406">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="1330">
+              <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/Solution_1_5_CCI_One_Away.java" />
         <option value="$PROJECT_DIR$/test/Test_1_2_CCI_Permutation.java" />
         <option value="$PROJECT_DIR$/src/Solution_1_2_CCI_Permutation.java" />
+        <option value="$PROJECT_DIR$/src/Solution_1_3_CCI_URLify.java" />
+        <option value="$PROJECT_DIR$/test/Test_1_3_CCI_URLify.java" />
       </list>
     </option>
   </component>
@@ -141,6 +166,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_1_2_CCI_Permutation">
+  <component name="RunManager" selected="JUnit.Test_1_3_CCI_URLify">
     <configuration name="Solution_1_5_CCI_One_Away" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution_1_5_CCI_One_Away" />
       <module name="algorithms2ndtake" />
@@ -169,6 +199,23 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test_1_2_CCI_Permutation" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test_1_3_CCI_URLify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_1_3_CCI_URLify" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -239,9 +286,11 @@
       <item itemvalue="Application.Solution_1_5_CCI_One_Away" />
       <item itemvalue="JUnit.Test_1_5_CCI_One_Away" />
       <item itemvalue="JUnit.Test_1_2_CCI_Permutation" />
+      <item itemvalue="JUnit.Test_1_3_CCI_URLify" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_1_3_CCI_URLify" />
         <item itemvalue="JUnit.Test_1_2_CCI_Permutation" />
         <item itemvalue="JUnit.Test_1_5_CCI_One_Away" />
         <item itemvalue="Application.Solution_1_5_CCI_One_Away" />
@@ -270,35 +319,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 06m 34s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 44m 35s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 07m 12s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 45m 56s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 07m 23s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 47m 40s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 09m 40s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 48m 15s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 10m 10s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 53m 30s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 10m 47s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 55m 41s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 11m 29s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 57m 35s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 12m 00s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 20h 57m 43s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_5_CCI_One_Away - 2019.03.17 at 21h 29m 57s.xml">
-      <configuration name="Test_1_5_CCI_One_Away" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 21h 00m 46s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_1_2_CCI_Permutation - 2019.03.24 at 13h 57m 32s.xml">
-      <configuration name="Test_1_2_CCI_Permutation" configurationId="JUnit" />
+    <history-entry file="Test_1_3_CCI_URLify - 2019.03.24 at 21h 01m 22s.xml">
+      <configuration name="Test_1_3_CCI_URLify" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -323,7 +372,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,6 +384,19 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution_1_3_CCI_URLify.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Solution_1_5_CCI_One_Away.java">
@@ -361,6 +423,13 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution_1_5_CCI_One_Away.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Test_1_5_CCI_One_Away.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -371,17 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution_1_5_CCI_One_Away.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Test_1_2_CCI_Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="1330">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -390,8 +452,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution_1_2_CCI_Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="342">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution_1_3_CCI_URLify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test_1_3_CCI_URLify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

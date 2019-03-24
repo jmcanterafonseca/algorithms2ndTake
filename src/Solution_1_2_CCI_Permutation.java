@@ -1,7 +1,7 @@
 public class Solution_1_2_CCI_Permutation {
     public static boolean solution(String str1, String str2) {
         if (str1 == null || str2 == null) {
-            throw new RuntimeException("");
+            throw new RuntimeException("Invalid input data");
         }
 
         // It will mark those chars that are found on input strings
