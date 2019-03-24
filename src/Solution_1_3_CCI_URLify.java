@@ -7,8 +7,8 @@ public class Solution_1_3_CCI_URLify {
         int headPointer = 0;
         int rearPointer = inputLength - 1;
 
-        char[] subsString = { '%' , '2', '0'};
-        int numExtraChars = subsString.length - 1;
+        char[] substString = { '%' , '2', '0'};
+        int numExtraChars = substString.length - 1;
 
         for(int j = 0; j < inputLength; j++) {
             if (chars[headPointer] == ' ') {
@@ -16,10 +16,10 @@ public class Solution_1_3_CCI_URLify {
                     chars[k + numExtraChars] = chars[k];
                 }
                 rearPointer += numExtraChars;
-                for (int l = 0; l < subsString.length; l++) {
-                    chars[headPointer + l] = subsString[l];
+                for (int l = 0; l < substString.length; l++) {
+                    chars[headPointer + l] = substString[l];
                 }
-                headPointer += subsString.length;
+                headPointer += substString.length;
             }
             else {
                 headPointer++;
