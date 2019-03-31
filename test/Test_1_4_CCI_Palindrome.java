@@ -37,4 +37,53 @@ public class Test_1_4_CCI_Palindrome {
 
         assertEquals(true, Solution_1_4_CCI_Palindrome.solution(str1));
     }
+
+    @Test
+    void test5() {
+        String str1 = "   ";
+
+        assertEquals(true, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
+
+    @Test
+    void test6() {
+        String str1 = " A  ";
+
+        assertEquals(true, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
+
+    @Test
+    void test7() {
+        String str1 = " Ab  ";
+
+        assertEquals(false, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
+
+    @Test
+    void test8() {
+        String str1 = "Bee  ";
+
+        assertEquals(true, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
+
+    @Test
+    void test9() {
+        String str1 = "   Bee";
+
+        assertEquals(true, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
+
+    @Test
+    void test10() {
+        String str1 = "   Br";
+
+        assertEquals(false, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
+
+    @Test
+    void test11() {
+        String str1 = "Br  ";
+
+        assertEquals(false, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
 }
