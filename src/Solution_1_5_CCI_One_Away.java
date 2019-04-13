@@ -1,17 +1,5 @@
 // Cracking the coding interview exercise 1.5
 public class Solution_1_5_CCI_One_Away {
-    public static void main(String[] args) {
-        if (args.length < 2) {
-            System.err.println("Please provide two strings");
-            System.exit(-1);
-        }
-
-        String str1 = args[0];
-        String str2 = args[1];
-
-        System.out.println(solution(str1, str2));
-    }
-
     public static boolean solution(String str1, String str2) {
         if (str1 == null || str2 == null) {
             throw new RuntimeException("Input strings cannot be null");
