@@ -10,11 +10,12 @@ public class Solution_1_6_CCI_StringCompression {
             return i;
         }
 
-        // Worst case is that output array doubles the size of input array
+        // Output array at most of equal length of input string
         int outputLength = 0;
-        char[] output = new char[i.length() * 2];
+        char[] output = new char[i.length()];
 
         char[] input = i.toCharArray();
+        int inputLength = input.length;
 
         int numRepeatedChars = 0;
         char previousChar = input[0];
@@ -22,38 +23,38 @@ public class Solution_1_6_CCI_StringCompression {
         boolean stringProcessed = false;
         int numCharsProcessed = 0;
 
-        while(!stringProcessed) {
+        while (!stringProcessed && outputLength < inputLength) {
             char c;
-            if (numCharsProcessed < input.length) {
+            if (numCharsProcessed < inputLength) {
                 c = input[numCharsProcessed];
-            }
-            else {
-                c = (char)-1;
+            } else {
+                c = (char) -1;
             }
 
             if (c != previousChar) {
-                output[outputLength] = previousChar;
                 char[] countAsString = String.valueOf(numRepeatedChars).toCharArray();
-
-                System.arraycopy(countAsString, 0, output, outputLength + 1, countAsString.length);
-
+                // Only this is performed if there is room in the array
+                if (outputLength + countAsString.length + 1 < inputLength) {
+                    output[outputLength] = previousChar;
+                    System.arraycopy(countAsString, 0, output, outputLength + 1, countAsString.length);
+                }
                 previousChar = c;
                 outputLength += (countAsString.length + 1);
                 numRepeatedChars = 1;
-            }
-            else {
+
+            } else {
                 numRepeatedChars++;
             }
 
             numCharsProcessed++;
-            if (numCharsProcessed == input.length + 1) {
+            if (numCharsProcessed == inputLength + 1) {
                 stringProcessed = true;
             }
         }
 
         String out = i;
 
-        if (outputLength < input.length) {
+        if (outputLength < inputLength && stringProcessed) {
             out = new String(output, 0, outputLength);
         }
 

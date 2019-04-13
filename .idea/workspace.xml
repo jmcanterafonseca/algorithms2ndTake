@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Test_1_4_CCI_Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test_1_4_CCI_Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution_1_6_CCI_StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution_1_6_CCI_StringCompression.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/algorithms2ndtake$Test_1_5_CCI_One_Away.ic" NAME="Test_1_5_CCI_One_Away Coverage Results" MODIFIED="1552853230361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/algorithms2ndtake$Test_1_6_CCI_StringCompression.ic" NAME="Test_1_6_CCI_StringCompression Coverage Results" MODIFIED="1555171895999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -70,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_1_6_CCI_StringCompression.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Solution_1_6_CCI_StringCompression.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution_1_6_CCI_StringCompression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            <state relative-caret-position="391">
+              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -84,11 +85,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Test_1_6_CCI_StringCompression.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_1_6_CCI_StringCompression.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Test_1_6_CCI_StringCompression.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
-              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+              <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/Solution_1_2_CCI_Permutation.java" />
         <option value="$PROJECT_DIR$/src/Solution_1_4_CCI_Palindrome.java" />
         <option value="$PROJECT_DIR$/test/Test_1_4_CCI_Palindrome.java" />
-        <option value="$PROJECT_DIR$/src/Solution_1_6_CCI_StringCompression.java" />
         <option value="$PROJECT_DIR$/test/Test_1_6_CCI_StringCompression.java" />
+        <option value="$PROJECT_DIR$/src/Solution_1_6_CCI_StringCompression.java" />
       </list>
     </option>
   </component>
@@ -375,15 +376,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 14h 07m 50s.xml">
-      <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 14h 11m 31s.xml">
-      <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 14h 23m 54s.xml">
-      <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 14h 26m 04s.xml">
       <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
     </history-entry>
@@ -405,10 +397,18 @@
     <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 14h 33m 41s.xml">
       <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 14h 34m 10s.xml">
+      <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 14h 34m 37s.xml">
+      <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_1_6_CCI_StringCompression - 2019.04.13 at 18h 04m 57s.xml">
+      <configuration name="Test_1_6_CCI_StringCompression" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1660" height="953" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -419,11 +419,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32992035" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -635,20 +635,20 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution_1_6_CCI_StringCompression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Test_1_6_CCI_StringCompression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution_1_6_CCI_StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
         </state>
       </provider>
     </entry>
