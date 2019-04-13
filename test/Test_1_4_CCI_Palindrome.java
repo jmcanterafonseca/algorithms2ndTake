@@ -11,6 +11,13 @@ public class Test_1_4_CCI_Palindrome {
     }
 
     @Test
+    void test12() {
+        String str1 = "Tact Coar";
+
+        assertEquals(false, Solution_1_4_CCI_Palindrome.solution(str1));
+    }
+
+    @Test
     void test1() {
         String str1 = "ab c";
 
