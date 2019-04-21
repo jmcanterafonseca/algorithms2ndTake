@@ -1,3 +1,5 @@
+package Chapter1;
+
 // Cracking the coding interview exercise 1.3
 public class Solution_1_3_CCI_URLify {
     public static String solution(char[] chars, int inputLength) {

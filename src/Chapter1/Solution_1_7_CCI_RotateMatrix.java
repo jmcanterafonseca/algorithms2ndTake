@@ -1,3 +1,5 @@
+package Chapter1;
+
 // Cracking the coding interview. Rotate a square matrix 90 degrees
 public class Solution_1_7_CCI_RotateMatrix {
     public static int[][] solution(int[][] input) {

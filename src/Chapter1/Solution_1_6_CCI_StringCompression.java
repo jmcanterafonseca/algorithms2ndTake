@@ -1,3 +1,5 @@
+package Chapter1;
+
 // Cracking the coding interview: Exercise 1.6. Compression of a String which content are letters
 public class Solution_1_6_CCI_StringCompression {
     public static String solution(String s) {

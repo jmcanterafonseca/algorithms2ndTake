@@ -1,3 +1,5 @@
+package Chapter1;
+
 // Cracking the coding interview exercise 1.2
 public class Solution_1_2_CCI_Permutation {
     public static boolean solution(String str1, String str2) {

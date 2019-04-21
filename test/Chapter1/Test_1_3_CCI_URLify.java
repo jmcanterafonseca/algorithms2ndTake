@@ -1,3 +1,6 @@
+package Chapter1;
+
+import Chapter1.Solution_1_3_CCI_URLify;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,3 +1,5 @@
+package Chapter1;
+
 // Cracking the coding interview exercise 1.5
 public class Solution_1_5_CCI_One_Away {
     public static boolean solution(String str1, String str2) {
