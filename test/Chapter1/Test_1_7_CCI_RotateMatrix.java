@@ -1,10 +1,8 @@
 package Chapter1;
 
-import Chapter1.Solution_1_7_CCI_RotateMatrix;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Test_1_7_CCI_RotateMatrix {
 

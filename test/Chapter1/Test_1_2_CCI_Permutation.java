@@ -1,6 +1,5 @@
 package Chapter1;
 
-import Chapter1.Solution_1_2_CCI_Permutation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

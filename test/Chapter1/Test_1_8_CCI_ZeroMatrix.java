@@ -1,6 +1,5 @@
 package Chapter1;
 
-import Chapter1.Solution_1_8_CCI_ZeroMatrix;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;

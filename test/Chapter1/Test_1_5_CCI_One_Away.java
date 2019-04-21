@@ -1,6 +1,5 @@
 package Chapter1;
 
-import Chapter1.Solution_1_5_CCI_One_Away;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
