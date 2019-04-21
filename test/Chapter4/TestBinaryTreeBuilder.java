@@ -49,6 +49,4 @@ public class TestBinaryTreeBuilder {
 
         return new TestBinaryTree(root, nodes);
     }
-
-
 }
