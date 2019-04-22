@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms2ndtake.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms2ndtake.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,97 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test_Common_Ancestor_Binary_Tree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Common_Ancestor_Binary_Tree.java">
+      <file leaf-file-name="Solution_1_9_CCI_StringRotation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_9_CCI_StringRotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_1_4_CCI_Palindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_4_CCI_Palindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_1_3_CCI_URLify.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_3_CCI_URLify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
+      <file leaf-file-name="Test_1_9_CCI_StringRotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_9_CCI_StringRotation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
               <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBinaryTreeBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_1_5_CCI_One_Away.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_5_CCI_One_Away.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_1_6_CCI_StringCompression.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_6_CCI_StringCompression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_1_7_CCI_RotateMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_7_CCI_RotateMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +45,20 @@
       <file leaf-file-name="Test_1_8_CCI_ZeroMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1884">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="376">
+              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_1_8_CCI_ZeroMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_8_CCI_ZeroMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,6 +110,10 @@
         <option value="$PROJECT_DIR$/test/Chapter1/Test_1_7_CCI_RotateMatrix.java" />
         <option value="$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" />
+        <option value="$PROJECT_DIR$/test/Chapter1/Test_1_9_StringRotation.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/Solution_1_9_StringRotation.java" />
+        <option value="$PROJECT_DIR$/test/Chapter1/Test_1_9_CCI_StringRotation.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/Solution_1_9_CCI_StringRotation.java" />
       </list>
     </option>
   </component>
@@ -192,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,11 +159,6 @@
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,6 +178,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,6 +192,7 @@
       <recent name="Chapter1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter1" />
       <recent name="Chapter4" />
       <recent name="" />
     </key>
@@ -273,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_Common_Ancestor_Binary_Tree">
+  <component name="RunManager" selected="JUnit.Test_1_9_CCI_StringRotation">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -340,12 +276,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_1_8_CCI_ZeroMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_1_9_CCI_StringRotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter1" />
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Test_1_8_CCI_ZeroMatrix" />
+      <option name="MAIN_CLASS_NAME" value="Chapter1.Test_1_9_CCI_StringRotation" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -419,19 +361,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_1_8_CCI_ZeroMatrix" />
       <item itemvalue="JUnit.All in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_1_2_CCI_Permutation" />
       <item itemvalue="JUnit.Chapter1 in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_Common_Ancestor_Binary_Tree" />
+      <item itemvalue="JUnit.Test_1_9_CCI_StringRotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_1_9_CCI_StringRotation" />
         <item itemvalue="JUnit.Test_Common_Ancestor_Binary_Tree" />
         <item itemvalue="JUnit.Chapter1 in algorithms2ndtake" />
         <item itemvalue="JUnit.Test_1_2_CCI_Permutation" />
         <item itemvalue="JUnit.All in algorithms2ndtake" />
-        <item itemvalue="JUnit.Test_1_8_CCI_ZeroMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -457,35 +399,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 07m 44s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 14h 25m 06s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 07m 57s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 14h 25m 33s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 08m 55s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 14h 27m 19s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 19m 01s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 14h 29m 19s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 20m 33s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 14h 30m 11s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 25m 59s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 14h 31m 32s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 27m 21s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 14h 32m 32s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 28m 04s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 17h 00m 08s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 29m 23s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 17h 04m 45s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Common_Ancestor_Binary_Tree - 2019.04.21 at 20h 30m 05s.xml">
-      <configuration name="Test_Common_Ancestor_Binary_Tree" configurationId="JUnit" />
+    <history-entry file="Test_1_9_CCI_StringRotation - 2019.04.22 at 17h 10m 09s.xml">
+      <configuration name="Test_1_9_CCI_StringRotation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -501,19 +443,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30819672" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3092896" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -544,6 +486,83 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Common_Ancestor_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_4_CCI_Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_5_CCI_One_Away.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_6_CCI_StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_7_CCI_RotateMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_5_CCI_One_Away.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -674,16 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_8_CCI_ZeroMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_2_CCI_Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -726,9 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_3_CCI_URLify.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -739,10 +745,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Common_Ancestor_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_4_CCI_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -779,40 +812,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_8_CCI_ZeroMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1884">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="376">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_9_CCI_StringRotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Common_Ancestor_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_9_CCI_StringRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
