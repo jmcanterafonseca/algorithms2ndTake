@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // Cracking the coding interview exercise 2.1
-public class Solution_2_1_Remove_Dups {
+public class Solution_2_1_CCI_RemoveDups {
     public static void solution(IntegerLinkedList list) {
         Set<Integer> occurrences = new HashSet<>();
 

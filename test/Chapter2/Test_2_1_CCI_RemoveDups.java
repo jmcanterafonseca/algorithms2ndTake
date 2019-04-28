@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class Test_2_1_Remove_Dups {
+public class Test_2_1_CCI_RemoveDups {
 
     void assertList(IntegerLinkedList list, int[] values) {
         LinkedListNode<Integer> current = list.head;
@@ -23,7 +23,7 @@ public class Test_2_1_Remove_Dups {
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
 
-        Solution_2_1_Remove_Dups.solution(list);
+        Solution_2_1_CCI_RemoveDups.solution(list);
 
         assertList(list, new int[]{12, 23, 56, 88});
     }
@@ -35,7 +35,7 @@ public class Test_2_1_Remove_Dups {
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
 
-        Solution_2_1_Remove_Dups.solution(list);
+        Solution_2_1_CCI_RemoveDups.solution(list);
 
         assertList(list, new int[]{12});
     }
@@ -47,7 +47,7 @@ public class Test_2_1_Remove_Dups {
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
 
-        Solution_2_1_Remove_Dups.solution(list);
+        Solution_2_1_CCI_RemoveDups.solution(list);
 
         assertList(list, new int[]{12, 23, 56});
     }
@@ -59,7 +59,7 @@ public class Test_2_1_Remove_Dups {
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
 
-        Solution_2_1_Remove_Dups.solution(list);
+        Solution_2_1_CCI_RemoveDups.solution(list);
 
         assertList(list, new int[]{12, 23, 56});
     }
@@ -71,7 +71,7 @@ public class Test_2_1_Remove_Dups {
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
 
-        Solution_2_1_Remove_Dups.solution(list);
+        Solution_2_1_CCI_RemoveDups.solution(list);
 
         assertList(list, new int[]{12, 23, 56});
     }

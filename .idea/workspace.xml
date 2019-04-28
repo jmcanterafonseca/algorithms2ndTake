@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2/Solution_2_1_Remove_Dups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Solution_2_1_CCI_RemoveDups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter2/Test_2_1_Remove_Dups.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter2/Test_2_1_CCI_RemoveDups.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,17 +22,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution_1_9_CCI_StringRotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_9_CCI_StringRotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_2_1_Remove_Dups.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_1_Remove_Dups.java">
+      <file leaf-file-name="Solution_2_1_CCI_RemoveDups.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_1_CCI_RemoveDups.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
@@ -41,20 +34,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_Common_Ancestor_Binary_Tree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_Common_Ancestor_Binary_Tree.java">
+      <file leaf-file-name="Test_2_1_CCI_RemoveDups.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_1_CCI_RemoveDups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="1482">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_2_1_Remove_Dups.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_1_Remove_Dups.java">
+      <file leaf-file-name="Solution_2_2_CCI_KthToLast.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_2_CCI_KthToLast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="152">
+              <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_2_2_CCI_KthToLast.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_2_CCI_KthToLast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_LinkedList_Last_K.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_LinkedList_Last_K.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_LinkedList_Last_K.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_LinkedList_Last_K.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +91,7 @@
       <file leaf-file-name="Test_TestLinkedListBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_TestLinkedListBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="-1049">
               <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBinaryTreeBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
+      <file leaf-file-name="Test_1_8_CCI_ZeroMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="494">
+              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,31 +129,6 @@
               <folding>
                 <element signature="e#119#120#0" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/LinkedListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_1_9_CCI_StringRotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_9_CCI_StringRotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,9 +188,14 @@
         <option value="$PROJECT_DIR$/src/Chapter2/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/IntegerLinkedList.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/TestLinkedListBuilder.java" />
-        <option value="$PROJECT_DIR$/test/Chapter2/Test_2_1_Remove_Dups.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_TestLinkedListBuilder.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_1_Remove_Dups.java" />
+        <option value="$PROJECT_DIR$/test/Chapter2/Test_2_1_Remove_Dups.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_2_Kth_To_Last.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Solution_LinkedList_Last_K.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_2_CCI_KthToLast.java" />
+        <option value="$PROJECT_DIR$/test/Chapter2/Test_LinkedList_Last_K.java" />
+        <option value="$PROJECT_DIR$/test/Chapter2/Test_2_2_CCI_KthToLast.java" />
       </list>
     </option>
   </component>
@@ -249,12 +255,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -293,32 +293,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_2_1_Remove_Dups">
+  <component name="RunManager" selected="JUnit.Test_2_2_CCI_KthToLast">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Chapter1 in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter1" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Test_1_9_CCI_StringRotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
@@ -343,7 +320,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_2_1_Remove_Dups" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_2_1_CCI_RemoveDups" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
@@ -354,7 +331,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter2" />
-      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_2_1_Remove_Dups" />
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_2_1_CCI_RemoveDups" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -366,18 +343,41 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_Common_Ancestor_Binary_Tree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_2_2_CCI_KthToLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4.*" />
+          <option name="PATTERN" value="Chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Common_Ancestor_Binary_Tree" />
+      <option name="PACKAGE_NAME" value="Chapter2" />
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_2_2_CCI_KthToLast" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test_LinkedList_Last_K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter2" />
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_LinkedList_Last_K" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -451,19 +451,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Chapter1 in algorithms2ndtake" />
-      <item itemvalue="JUnit.Test_Common_Ancestor_Binary_Tree" />
       <item itemvalue="JUnit.Test_1_9_CCI_StringRotation" />
-      <item itemvalue="JUnit.Test_2_1_Remove_Dups" />
+      <item itemvalue="JUnit.Test_2_1_CCI_RemoveDups" />
       <item itemvalue="JUnit.Test_TestLinkedListBuilder" />
+      <item itemvalue="JUnit.Test_2_2_CCI_KthToLast" />
+      <item itemvalue="JUnit.Test_LinkedList_Last_K" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_2_1_Remove_Dups" />
+        <item itemvalue="JUnit.Test_2_2_CCI_KthToLast" />
+        <item itemvalue="JUnit.Test_LinkedList_Last_K" />
+        <item itemvalue="JUnit.Test_2_1_CCI_RemoveDups" />
         <item itemvalue="JUnit.Test_TestLinkedListBuilder" />
         <item itemvalue="JUnit.Test_1_9_CCI_StringRotation" />
-        <item itemvalue="JUnit.Test_Common_Ancestor_Binary_Tree" />
-        <item itemvalue="JUnit.Chapter1 in algorithms2ndtake" />
       </list>
     </recent_temporary>
   </component>
@@ -489,35 +489,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_2_1_Remove_Dups - 2019.04.27 at 12h 11m 03s.xml">
-      <configuration name="Test_2_1_Remove_Dups" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 47m 38s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_2_1_Remove_Dups - 2019.04.27 at 12h 12m 36s.xml">
-      <configuration name="Test_2_1_Remove_Dups" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 48m 59s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_2_1_Remove_Dups - 2019.04.27 at 12h 15m 04s.xml">
-      <configuration name="Test_2_1_Remove_Dups" configurationId="JUnit" />
+    <history-entry file="Test_LinkedList_Last_K - 2019.04.28 at 13h 50m 42s.xml">
+      <configuration name="Test_LinkedList_Last_K" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_2_1_Remove_Dups - 2019.04.27 at 12h 15m 05s.xml">
-      <configuration name="Test_2_1_Remove_Dups" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 50m 48s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_2_1_Remove_Dups - 2019.04.27 at 12h 17m 16s.xml">
-      <configuration name="Test_2_1_Remove_Dups" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 51m 33s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_TestLinkedListBuilder - 2019.04.27 at 12h 17m 47s.xml">
-      <configuration name="Test_TestLinkedListBuilder" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 54m 53s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_TestLinkedListBuilder - 2019.04.27 at 12h 18m 41s.xml">
-      <configuration name="Test_TestLinkedListBuilder" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 55m 39s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_TestLinkedListBuilder - 2019.04.27 at 12h 18m 57s.xml">
-      <configuration name="Test_TestLinkedListBuilder" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 55m 53s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_2_1_Remove_Dups - 2019.04.27 at 12h 21m 55s.xml">
-      <configuration name="Test_2_1_Remove_Dups" configurationId="JUnit" />
+    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 13h 56m 29s.xml">
+      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_2_1_Remove_Dups - 2019.04.27 at 12h 22m 36s.xml">
-      <configuration name="Test_2_1_Remove_Dups" configurationId="JUnit" />
+    <history-entry file="Test_LinkedList_Last_K - 2019.04.28 at 13h 59m 45s.xml">
+      <configuration name="Test_LinkedList_Last_K" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -571,63 +571,34 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chapter2/Solution_2_1_Remove_Dups.java</url>
+          <url>file://$PROJECT_DIR$/src/Chapter2/Solution_2_1_CCI_RemoveDups.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/Chapter2/Test_2_1_Remove_Dups.java</url>
+          <url>file://$PROJECT_DIR$/test/Chapter2/Test_2_1_CCI_RemoveDups.java</url>
           <line>25</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter2/Solution_LinkedList_Last_K.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter2/Solution_LinkedList_Last_K.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_9_CCI_StringRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_8_CCI_ZeroMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/LinkedListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Common_Ancestor_Binary_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -642,6 +613,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,6 +640,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,6 +650,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,6 +660,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -728,6 +711,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -735,6 +721,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,6 +731,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -756,6 +748,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,6 +824,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="60" selection-start-line="4" selection-end-line="4" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,6 +845,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -864,6 +865,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -878,6 +882,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,6 +892,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -892,6 +902,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -899,16 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -978,9 +981,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_1_CCI_RemoveDups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_TestLinkedListBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="-1049">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -988,23 +1001,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_1_Remove_Dups.java">
+    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_1_CCI_RemoveDups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="1482">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_1_Remove_Dups.java">
+    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="494">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_LinkedList_Last_K.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_2_CCI_KthToLast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_LinkedList_Last_K.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_2_CCI_KthToLast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
         </state>
       </provider>
     </entry>
