@@ -18,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test_2_1_CCI_RemoveDups.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_1_CCI_RemoveDups.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution_2_2_CCI_KthToLast.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_2_CCI_KthToLast.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,14 +42,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_KBest_Select.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution_KBest_Select.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="469">
+              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_2_3_CCI_DeleteMiddleNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_3_CCI_DeleteMiddleNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_2_3_CCI_DeleteMiddleNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_3_CCI_DeleteMiddleNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -74,8 +80,8 @@
       <file leaf-file-name="Test_KBest_Select.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Misc/Test_KBest_Select.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="467">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,18 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
               <caret line="114" selection-start-line="114" selection-end-line="114" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_1_8_CCI_ZeroMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,6 +186,8 @@
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_2_CCI_KthToLast.java" />
         <option value="$PROJECT_DIR$/test/Misc/Test_KBest_Select.java" />
         <option value="$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java" />
+        <option value="$PROJECT_DIR$/test/Chapter2/Test_2_3_CCI_DeleteMiddleNode.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_3_CCI_DeleteMiddleNode.java" />
       </list>
     </option>
   </component>
@@ -226,12 +222,24 @@
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
@@ -265,8 +273,8 @@
       <recent name="Chapter1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Misc" />
       <recent name="Chapter2" />
+      <recent name="Misc" />
       <recent name="Chapter1" />
       <recent name="Chapter4" />
       <recent name="" />
@@ -284,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_KBest_Select">
+  <component name="RunManager" selected="JUnit.Test_2_3_CCI_DeleteMiddleNode">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -323,6 +331,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter2" />
       <option name="MAIN_CLASS_NAME" value="Chapter2.Test_2_2_CCI_KthToLast" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test_2_3_CCI_DeleteMiddleNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter2" />
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_2_3_CCI_DeleteMiddleNode" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -380,29 +411,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_TestLinkedListBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter2" />
-      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_TestLinkedListBuilder" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -443,18 +451,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Test_2_1_CCI_RemoveDups" />
-      <item itemvalue="JUnit.Test_TestLinkedListBuilder" />
       <item itemvalue="JUnit.Test_2_2_CCI_KthToLast" />
       <item itemvalue="JUnit.Test_LinkedList_Last_K" />
       <item itemvalue="JUnit.Test_KBest_Select" />
+      <item itemvalue="JUnit.Test_2_3_CCI_DeleteMiddleNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_2_3_CCI_DeleteMiddleNode" />
         <item itemvalue="JUnit.Test_KBest_Select" />
         <item itemvalue="JUnit.Test_2_2_CCI_KthToLast" />
         <item itemvalue="JUnit.Test_LinkedList_Last_K" />
         <item itemvalue="JUnit.Test_2_1_CCI_RemoveDups" />
-        <item itemvalue="JUnit.Test_TestLinkedListBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -480,35 +488,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_2_2_CCI_KthToLast - 2019.04.28 at 14h 01m 24s.xml">
-      <configuration name="Test_2_2_CCI_KthToLast" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 11h 58m 24s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 00m 58s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 02m 30s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 07m 52s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 08m 45s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 11m 59s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 33m 41s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 34m 43s.xml">
       <configuration name="Test_KBest_Select" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 35m 50s.xml">
       <configuration name="Test_KBest_Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 46m 31s.xml">
+      <configuration name="Test_KBest_Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 46m 59s.xml">
+      <configuration name="Test_KBest_Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 48m 35s.xml">
+      <configuration name="Test_KBest_Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 32m 00s.xml">
+      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 33m 15s.xml">
+      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 34m 27s.xml">
+      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 35m 06s.xml">
+      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 35m 36s.xml">
+      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -523,12 +531,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31064764" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31064764" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -591,26 +599,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_5_CCI_One_Away.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_6_CCI_StringCompression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1028,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Misc/Test_KBest_Select.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="467">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1038,11 +1026,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="469">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_3_CCI_DeleteMiddleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_3_CCI_DeleteMiddleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
         </state>
       </provider>
     </entry>
