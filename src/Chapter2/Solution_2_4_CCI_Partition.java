@@ -21,28 +21,28 @@ public class Solution_2_4_CCI_Partition {
         while (current != null) {
             if (current.value < partitionValue) {
                 if (headLeftPartition == null) {
-                    headLeftPartition = tailLeftPartition = new LinkedListNode<>(current.value);
+                    headLeftPartition = tailLeftPartition = current;
                 }
                 else {
-                    tailLeftPartition.next = new LinkedListNode<>(current.value);;
+                    tailLeftPartition.next = current;
                     tailLeftPartition = tailLeftPartition.next;
                 }
             }
             else if (current.value > partitionValue) {
                 if (headRightPartition == null) {
-                    headRightPartition = tailRightPartition = new LinkedListNode<>(current.value);
+                    headRightPartition = tailRightPartition = current;
                 }
                 else {
-                    tailRightPartition.next = new LinkedListNode<>(current.value);;
+                    tailRightPartition.next = current;
                     tailRightPartition = tailRightPartition.next;
                 }
             }
             else if (current.value == partitionValue) {
                 if (partitionNodes == null) {
-                    partitionNodes = tailPartitionNodes = new LinkedListNode<>(current.value);
+                    partitionNodes = tailPartitionNodes = current;
                 }
                 else {
-                    tailPartitionNodes.next = new LinkedListNode<>(current.value);;
+                    tailPartitionNodes.next = current;
                     tailPartitionNodes = tailPartitionNodes.next;
                 }
             }

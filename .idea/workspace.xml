@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="" />
+    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,20 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_2_4_CCI_Partition.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Solution_2_4_CCI_Partition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="543">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_2_4_CCI_Partition.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_2_4_CCI_Partition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_4_CCI_Partition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="467">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -183,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_3_CCI_DeleteMiddleNode.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_3_CCI_DeleteMiddleNode.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_4_CCI_Partition.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java" />
       </list>
     </option>
   </component>
@@ -485,18 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_KBest_Select - 2019.05.01 at 12h 48m 35s.xml">
-      <configuration name="Test_KBest_Select" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 32m 00s.xml">
-      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 33m 15s.xml">
-      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 34m 27s.xml">
-      <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_2_3_CCI_DeleteMiddleNode - 2019.05.01 at 17h 35m 06s.xml">
       <configuration name="Test_2_3_CCI_DeleteMiddleNode" configurationId="JUnit" />
     </history-entry>
@@ -513,6 +503,18 @@
       <configuration name="Test_2_4_CCI_Partition" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test_2_4_CCI_Partition - 2019.05.01 at 18h 05m 30s.xml">
+      <configuration name="Test_2_4_CCI_Partition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_4_CCI_Partition - 2019.05.01 at 18h 06m 14s.xml">
+      <configuration name="Test_2_4_CCI_Partition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_4_CCI_Partition - 2019.05.01 at 18h 07m 30s.xml">
+      <configuration name="Test_2_4_CCI_Partition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_4_CCI_Partition - 2019.05.01 at 18h 08m 20s.xml">
+      <configuration name="Test_2_4_CCI_Partition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_4_CCI_Partition - 2019.05.01 at 18h 08m 42s.xml">
       <configuration name="Test_2_4_CCI_Partition" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -589,12 +591,6 @@
           <line>31</line>
           <properties />
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="18" />
@@ -1030,17 +1026,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java">
+    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_4_CCI_Partition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="467">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_4_CCI_Partition.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_4_CCI_Partition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="543">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>

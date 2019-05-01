@@ -49,6 +49,18 @@ public class Test_2_4_CCI_Partition {
 
         Solution_2_4_CCI_Partition.solution(list,88);
 
-        assertList(list, new int[]{12,23, 56, 12, 88});
+        assertList(list, new int[]{12, 23, 56, 12, 88});
+    }
+
+    @Test
+    void test3() {
+        // Test proper building of the list
+        String slist = "";
+
+        IntegerLinkedList list = TestLinkedListBuilder.build(slist);
+
+        Solution_2_4_CCI_Partition.solution(list,88);
+
+        assertList(list, new int[]{});
     }
 }
