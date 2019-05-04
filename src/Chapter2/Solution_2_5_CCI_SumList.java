@@ -1,6 +1,6 @@
 package Chapter2;
 
-// Cracking the coding interview exercise 2.1
+// Cracking the coding interview exercise 2.5
 public class Solution_2_5_CCI_SumList {
     public static IntegerLinkedList solution(IntegerLinkedList list1, IntegerLinkedList list2) {
         if (list1.isEmpty() && list2.isEmpty()) {
@@ -61,8 +61,11 @@ public class Solution_2_5_CCI_SumList {
         }
 
         while(remainder != null) {
-            currentSum.next = new LinkedListNode<>(remainder.value);
-            currentSum = currentSum.next;
+            if (remainder.value != 0) {
+                currentSum.next = new LinkedListNode<>(remainder.value);
+                currentSum = currentSum.next;
+            }
+
             remainder = remainder.next;
         }
 

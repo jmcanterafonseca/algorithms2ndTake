@@ -129,6 +129,48 @@ public class Test_2_5_CCI_SumList {
     }
 
     @Test
+    void test8() {
+        // Test proper building of the list
+        String slist1 = "9->9->0";
+        String slist2 = "9->9->0";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{8, 9, 1});
+    }
+
+    @Test
+    void test9() {
+        // Test proper building of the list
+        String slist1 = "9->9->0";
+        String slist2 = "9->9";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{8, 9, 1});
+    }
+
+    @Test
+    void test10() {
+        // Test proper building of the list
+        String slist1 = "9->9->0";
+        String slist2 = "9->9->0->0->0";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{8, 9, 1});
+    }
+
+    @Test
     void test30() {
         // Test proper building of the list
         String slist1 = "";
@@ -140,5 +182,19 @@ public class Test_2_5_CCI_SumList {
         IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
 
         assertList(result, new int[]{0, 8, 2});
+    }
+
+    @Test
+    void test31() {
+        // Test proper building of the list
+        String slist1 = "";
+        String slist2 = "0->0->0";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{0});
     }
 }
