@@ -50,23 +50,35 @@ public class Solution_2_5_CCI_SumList {
             current2 = current2.next;
         }
 
-        if (previousSum != 0) {
-            currentSum.next = new LinkedListNode<>(previousSum);
-        }
-
         // Processing the remainder of the list
         LinkedListNode<Integer> remainder = current1;
         if (current2 != null) {
             remainder = current2;
         }
 
-        while(remainder != null) {
-            if (remainder.value != 0) {
-                currentSum.next = new LinkedListNode<>(remainder.value);
-                currentSum = currentSum.next;
+        if (previousSum != 0) {
+            int addedValue = 0;
+            if (remainder != null) {
+                addedValue = remainder.value;
+                remainder = remainder.next;
             }
+            currentSum.next = new LinkedListNode<>(previousSum + addedValue);
+            currentSum = currentSum.next;
+        }
 
-            remainder = remainder.next;
+        LinkedListNode<Integer> iterRemainder = remainder;
+
+        boolean allZeros = true;
+        while(iterRemainder != null) {
+            if (iterRemainder.value != 0) {
+                allZeros = false;
+                break;
+            }
+            iterRemainder = iterRemainder.next;
+        }
+
+        if (!allZeros) {
+            currentSum.next = remainder;
         }
 
         IntegerLinkedList out = new IntegerLinkedList();

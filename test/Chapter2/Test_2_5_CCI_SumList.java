@@ -171,6 +171,63 @@ public class Test_2_5_CCI_SumList {
     }
 
     @Test
+    void test11() {
+        // Test proper building of the list
+        String slist1 = "9->9->0";
+        String slist2 = "9->9->0->0->1";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{8, 9, 1, 0, 1});
+    }
+
+    @Test
+    void test12() {
+        // Test proper building of the list
+        String slist1 = "9";
+        String slist2 = "9->2";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{8, 3});
+    }
+
+    @Test
+    void test13() {
+        // Test proper building of the list
+        String slist1 = "9";
+        String slist2 = "9->2->0";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{8, 3});
+    }
+
+    @Test
+    void test14() {
+        // Test proper building of the list
+        String slist1 = "9";
+        String slist2 = "9->2->0->0->4";
+
+        IntegerLinkedList list1 = TestLinkedListBuilder.build(slist1);
+        IntegerLinkedList list2 = TestLinkedListBuilder.build(slist2);
+
+        IntegerLinkedList result = Solution_2_5_CCI_SumList.solution(list1,list2);
+
+        assertList(result, new int[]{8, 3, 0, 0, 4});
+    }
+
+
+    @Test
     void test30() {
         // Test proper building of the list
         String slist1 = "";
