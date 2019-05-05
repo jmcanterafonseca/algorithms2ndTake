@@ -2,23 +2,13 @@ package Chapter2;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static utils.Utils.assertList;
 
 
 public class Test_2_1_CCI_RemoveDups {
 
-    void assertList(IntegerLinkedList list, int[] values) {
-        LinkedListNode<Integer> current = list.head;
-
-        for (int value : values) {
-            assertEquals(value, current.value);
-            current = current.next;
-        }
-    }
-
     @Test
     void test0() {
-        // Test proper building of the list
         String slist = "12->23->56->12->88";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -30,7 +20,6 @@ public class Test_2_1_CCI_RemoveDups {
 
     @Test
     void test1() {
-        // Test proper building of the list
         String slist = "12->12";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -42,7 +31,6 @@ public class Test_2_1_CCI_RemoveDups {
 
     @Test
     void test2() {
-        // Test proper building of the list
         String slist = "12->23->56";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -54,7 +42,6 @@ public class Test_2_1_CCI_RemoveDups {
 
     @Test
     void test3() {
-        // Test proper building of the list
         String slist = "12->23->56->56->56";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -66,7 +53,6 @@ public class Test_2_1_CCI_RemoveDups {
 
     @Test
     void test4() {
-        // Test proper building of the list
         String slist = "12->23->23->23->56";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);

@@ -9,7 +9,6 @@ public class Test_2_2_CCI_KthToLast {
 
     @Test
     void test0() {
-        // Test proper building of the list
         String slist = "12->23->56->12->88";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -21,7 +20,6 @@ public class Test_2_2_CCI_KthToLast {
 
     @Test
     void test1() {
-        // Test proper building of the list
         String slist = "12->23->56->12->88";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -33,7 +31,6 @@ public class Test_2_2_CCI_KthToLast {
 
     @Test
     void test2() {
-        // Test proper building of the list
         String slist = "12";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -45,7 +42,6 @@ public class Test_2_2_CCI_KthToLast {
 
     @Test
     void test3() {
-        // Test proper building of the list
         String slist = "12";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -57,7 +53,6 @@ public class Test_2_2_CCI_KthToLast {
 
     @Test
     void test4() {
-        // Test proper building of the list
         String slist = "12->23";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -69,7 +64,6 @@ public class Test_2_2_CCI_KthToLast {
 
     @Test
     void test5() {
-        // Test proper building of the list
         String slist = "";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);

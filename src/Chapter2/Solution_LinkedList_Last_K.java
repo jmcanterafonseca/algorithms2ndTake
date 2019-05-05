@@ -20,7 +20,7 @@ public class Solution_LinkedList_Last_K {
             if (outListSize < k) {
                 outListSize++;
             } else {
-                    headLastK = headLastK.next;
+                headLastK = headLastK.next;
             }
 
             tailLastK.next = newNode;

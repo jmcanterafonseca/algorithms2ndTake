@@ -10,7 +10,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test0() {
-        // Test proper building of the list
         String slist = "12->23->56->12->88";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -23,7 +22,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test1() {
-        // Test proper building of the list
         String slist = "88";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -36,7 +34,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test11() {
-        // Test proper building of the list
         String slist = "88";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -49,7 +46,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test2() {
-        // Test proper building of the list
         String slist = "88->100";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -62,7 +58,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test3() {
-        // Test proper building of the list
         String slist = "88->100";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -75,7 +70,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test4() {
-        // Test proper building of the list
         String slist = "88->100";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -88,7 +82,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test5() {
-        // Test proper building of the list
         String slist = "88->100";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);
@@ -101,7 +94,6 @@ public class Test_LinkedList_Last_K {
 
     @Test
     void test6() {
-        // Test proper building of the list
         String slist = "";
 
         IntegerLinkedList list = TestLinkedListBuilder.build(slist);

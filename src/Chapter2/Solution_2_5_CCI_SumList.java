@@ -6,12 +6,6 @@ public class Solution_2_5_CCI_SumList {
         if (list1.isEmpty() && list2.isEmpty()) {
             return new IntegerLinkedList();
         }
-        else if(list2.isEmpty()) {
-            return list1;
-        }
-        else if(list1.isEmpty()) {
-            return list2;
-        }
 
         LinkedListNode<Integer> current1 = list1.head;
         LinkedListNode<Integer> current2 = list2.head;
@@ -31,19 +25,17 @@ public class Solution_2_5_CCI_SumList {
             int newSum = totalValue;
 
             if (totalValue > 9) {
-               newSum = totalValue % 10;
-               previousSum = 1;
-            }
-            else {
+                newSum = totalValue % 10;
+                previousSum = 1;
+            } else {
                 previousSum = 0;
             }
 
             if (headSum == null) {
                 currentSum = headSum = new LinkedListNode<>(newSum);
-            }
-            else {
-               currentSum.next = new LinkedListNode<>(newSum);
-               currentSum = currentSum.next;
+            } else {
+                currentSum.next = new LinkedListNode<>(newSum);
+                currentSum = currentSum.next;
             }
 
             current1 = current1.next;
@@ -69,7 +61,7 @@ public class Solution_2_5_CCI_SumList {
         LinkedListNode<Integer> iterRemainder = remainder;
 
         boolean allZeros = true;
-        while(iterRemainder != null) {
+        while (iterRemainder != null) {
             if (iterRemainder.value != 0) {
                 allZeros = false;
                 break;
@@ -78,7 +70,15 @@ public class Solution_2_5_CCI_SumList {
         }
 
         if (!allZeros) {
-            currentSum.next = remainder;
+            if (currentSum == null) {
+                currentSum = headSum = remainder;
+            } else {
+                currentSum.next = remainder;
+            }
+        } else {
+            if (currentSum == null) {
+                currentSum = headSum = new LinkedListNode<>(0);
+            }
         }
 
         IntegerLinkedList out = new IntegerLinkedList();

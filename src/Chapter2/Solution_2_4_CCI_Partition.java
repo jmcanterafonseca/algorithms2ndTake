@@ -53,12 +53,17 @@ public class Solution_2_4_CCI_Partition {
         if (headLeftPartition != null) {
             list.head = headLeftPartition;
             tailLeftPartition.next = partitionNodes;
+            tailPartitionNodes.next = headRightPartition;
+            if (tailRightPartition != null) {
+                tailRightPartition.next = null;
+            }
         }
         else {
             list.head = headRightPartition;
             tailRightPartition.next = partitionNodes;
+            if (tailPartitionNodes != null) {
+                tailPartitionNodes.next = null;
+            }
         }
-
-        tailPartitionNodes.next = headRightPartition;
     }
 }
