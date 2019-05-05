@@ -18,33 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution_2_5_CCI_SumList_Forward.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_5_CCI_SumList_Forward.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_LinkedList_Last_K.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_LinkedList_Last_K.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_Reverse_List.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_Reverse_List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinaryTreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,20 +40,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_2_8_CCI_Loop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_8_CCI_Loop.java">
+      <file leaf-file-name="IntegerLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/IntegerLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="38">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_2_8_CCI_Loop.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution_2_8_CCI_Loop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_8_CCI_Loop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_2_8_CCI_Loop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_8_CCI_Loop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="-198">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_2_6_CCI_Palindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_6_CCI_Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_2_6_CCI_Palindrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_6_CCI_Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -109,15 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_2_5_CCI_SumList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_5_CCI_SumList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1653">
-              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -133,9 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter1/Test_1_2_CCI_Permutation.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/BinaryTreeBuilder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_Common_Ancestor_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/BinaryTree.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" />
@@ -184,6 +172,9 @@
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_7_CCI_Intersection.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_8_CCI_Loop.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_8_CCI_Loop.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/CharLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_6_CCI_Palindrome.java" />
+        <option value="$PROJECT_DIR$/test/Chapter2/Test_2_6_CCI_Palindrome.java" />
       </list>
     </option>
   </component>
@@ -276,26 +267,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_2_8_CCI_Loop">
+  <component name="RunManager" selected="JUnit.Chapter2 in algorithms2ndtake">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="All in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Chapter2 in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
@@ -311,6 +285,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test_2_6_CCI_Palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter2" />
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_2_6_CCI_Palindrome" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -428,19 +425,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
-      <item itemvalue="JUnit.All in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_LinkedList_Last_K" />
       <item itemvalue="JUnit.Test_2_7_CCI_Intersection" />
       <item itemvalue="JUnit.Test_2_8_CCI_Loop" />
+      <item itemvalue="JUnit.Test_2_6_CCI_Palindrome" />
+      <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
+        <item itemvalue="JUnit.Test_2_6_CCI_Palindrome" />
         <item itemvalue="JUnit.Test_2_8_CCI_Loop" />
         <item itemvalue="JUnit.Test_2_7_CCI_Intersection" />
         <item itemvalue="JUnit.Test_LinkedList_Last_K" />
-        <item itemvalue="JUnit.All in algorithms2ndtake" />
-        <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
       </list>
     </recent_temporary>
   </component>
@@ -466,9 +463,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter2_in_algorithms2ndtake - 2019.05.05 at 12h 11m 20s.xml">
-      <configuration name="Chapter2 in algorithms2ndtake" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_algorithms2ndtake - 2019.05.05 at 12h 11m 33s.xml">
       <configuration name="All in algorithms2ndtake" configurationId="JUnit" />
     </history-entry>
@@ -495,6 +489,9 @@
     </history-entry>
     <history-entry file="Test_2_7_CCI_Intersection - 2019.05.05 at 13h 43m 55s.xml">
       <configuration name="Test_2_7_CCI_Intersection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_2_8_CCI_Loop - 2019.05.05 at 13h 54m 52s.xml">
+      <configuration name="Test_2_8_CCI_Loop" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -576,27 +573,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_5_CCI_One_Away.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_3_CCI_URLify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_4_CCI_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -743,17 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/IntegerLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,14 +972,38 @@
     <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_8_CCI_Loop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_8_CCI_Loop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="-198">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/CharLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/IntegerLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_6_CCI_Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_6_CCI_Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
