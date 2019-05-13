@@ -61,6 +61,44 @@ public class Solution_3_3_CCI_Stack_Of_Plates {
         targetStack.push(p);
     }
 
+    // Pops at the stack which index corresponds to the one passed as parameter
+    public Plate popAt(int index) {
+        if (index >= stackSet.size()) {
+            throw new RuntimeException("Target Stack not found");
+        }
+
+        Stack st = stackSet.get(index);
+
+        if (st.isEmpty()) {
+            throw new RuntimeException("Target stack is empty");
+        }
+
+        Plate out = st.pop();
+
+        // And now we need to rebalance the stacks
+        Stack previousStack = st;
+        int lastIndex = stackSetIndex;
+
+        for (int j = index; j < lastIndex; j++) {
+            Stack nextStack = stackSet.get(j + 1);
+            if (nextStack.isEmpty()) {
+                stackSetIndex--;
+            } else {
+                previousStack.push(nextStack.pop());
+                if (nextStack.isEmpty()) {
+                    stackSetIndex--;
+                }
+            }
+            previousStack = nextStack;
+        }
+
+        if (stackSet.get(stackSetIndex).isEmpty()) {
+            stackSetIndex--;
+        }
+
+        return out;
+    }
+
     public static class Plate {
 
     }

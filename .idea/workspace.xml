@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="Solution_3_3_CCI_Stack_Of_Plates.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+            <state relative-caret-position="-617">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="Test_3_3_CCI_Stack_Of_Plates.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1805">
-              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+            <state relative-caret-position="466">
+              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,12 +153,6 @@
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,20 +232,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_2_6_CCI_Palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter4 in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter2.*" />
+          <option name="PATTERN" value="Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter2" />
-      <option name="MAIN_CLASS_NAME" value="Chapter2.Test_2_6_CCI_Palindrome" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -368,19 +363,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_2_6_CCI_Palindrome" />
       <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_3_1_CCI_Three_In_One" />
       <item itemvalue="JUnit.Test_3_2_CCI_StackMin" />
       <item itemvalue="JUnit.Test_3_3_CCI_Stack_Of_Plates" />
+      <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test_3_3_CCI_Stack_Of_Plates" />
+        <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
         <item itemvalue="JUnit.Test_3_2_CCI_StackMin" />
         <item itemvalue="JUnit.Test_3_1_CCI_Three_In_One" />
         <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
-        <item itemvalue="JUnit.Test_2_6_CCI_Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -406,40 +401,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_3_2_CCI_StackMin - 2019.05.11 at 14h 14m 08s.xml">
-      <configuration name="Test_3_2_CCI_StackMin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 19m 18s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 10m 09s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 26m 06s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 11m 17s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 27m 19s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 12m 32s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 28m 00s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 16m 22s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 29m 57s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 20m 47s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 33m 32s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 21m 30s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 40m 37s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 24m 30s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 42m 29s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 24m 39s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 11h 44m 09s.xml">
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 25m 53s.xml">
+      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 27m 06s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1892" height="985" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -449,7 +443,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31064764" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -948,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        <state relative-caret-position="-617">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
@@ -960,8 +954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        <state relative-caret-position="466">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -120,4 +120,100 @@ public class Test_3_3_CCI_Stack_Of_Plates {
         assertEquals(plates[4], stackSet.pop());
         assertEquals(plates[3], stackSet.peek());
     }
+
+    @Test
+    void test8() {
+        Solution_3_3_CCI_Stack_Of_Plates stackSet = new Solution_3_3_CCI_Stack_Of_Plates();
+        Plate[] plates = new Plate[5];
+
+        for (int j = 0; j < 5; j++) {
+            plates[j] = new Plate();
+            stackSet.push(plates[j]);
+        }
+
+        try {
+            stackSet.popAt(2);
+        } catch (RuntimeException rte) {
+            assertTrue(true);
+            return;
+        }
+
+        fail();
+    }
+
+    @Test
+    void test9() {
+        Solution_3_3_CCI_Stack_Of_Plates stackSet = new Solution_3_3_CCI_Stack_Of_Plates();
+        Plate[] plates = new Plate[5];
+
+        for (int j = 0; j < 5; j++) {
+            plates[j] = new Plate();
+            stackSet.push(plates[j]);
+        }
+
+        stackSet.popAt(0);
+
+        assertEquals(plates[4], stackSet.peek());
+    }
+
+    @Test
+    void test10() {
+        Solution_3_3_CCI_Stack_Of_Plates stackSet = new Solution_3_3_CCI_Stack_Of_Plates();
+        Plate[] plates = new Plate[5];
+
+        for (int j = 0; j < 5; j++) {
+            plates[j] = new Plate();
+            stackSet.push(plates[j]);
+        }
+
+        stackSet.popAt(1);
+
+        assertEquals(plates[3], stackSet.peek());
+    }
+
+    @Test
+    void test11() {
+        Solution_3_3_CCI_Stack_Of_Plates stackSet = new Solution_3_3_CCI_Stack_Of_Plates();
+        Plate[] plates = new Plate[15];
+
+        for (int j = 0; j < 15; j++) {
+            plates[j] = new Plate();
+            stackSet.push(plates[j]);
+        }
+
+        stackSet.popAt(1);
+
+        assertEquals(plates[13], stackSet.peek());
+    }
+
+    @Test
+    void test12() {
+        Solution_3_3_CCI_Stack_Of_Plates stackSet = new Solution_3_3_CCI_Stack_Of_Plates();
+        Plate[] plates = new Plate[15];
+
+        for (int j = 0; j < 15; j++) {
+            plates[j] = new Plate();
+            stackSet.push(plates[j]);
+        }
+
+        stackSet.popAt(2);
+
+        assertEquals(plates[13], stackSet.peek());
+    }
+
+    @Test
+    void test13() {
+        Solution_3_3_CCI_Stack_Of_Plates stackSet = new Solution_3_3_CCI_Stack_Of_Plates();
+        Plate[] plates = new Plate[15];
+
+        for (int j = 0; j < 15; j++) {
+            plates[j] = new Plate();
+            stackSet.push(plates[j]);
+        }
+
+        stackSet.popAt(0);
+        stackSet.popAt(1);
+
+        assertEquals(plates[12], stackSet.peek());
+    }
 }
