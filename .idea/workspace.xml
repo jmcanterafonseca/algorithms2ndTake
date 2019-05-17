@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-617">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
@@ -35,11 +32,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_3_3_CCI_Stack_Of_Plates.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_3_3_CCI_Stack_Of_Plates.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="409">
+              <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_3_4_CCI_Two_Stack_Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_3_4_CCI_Two_Stack_Queue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter1/Test_1_6_CCI_StringCompression.java" />
-        <option value="$PROJECT_DIR$/test/Chapter1/Test_1_7_CCI_RotateMatrix.java" />
         <option value="$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" />
         <option value="$PROJECT_DIR$/test/Chapter1/Test_1_9_StringRotation.java" />
@@ -113,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_1_CCI_Three_In_One.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java" />
         <option value="$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java" />
+        <option value="$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java" />
       </list>
     </option>
   </component>
@@ -142,6 +166,12 @@
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
@@ -205,32 +235,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_3_3_CCI_Stack_Of_Plates">
+  <component name="RunManager" selected="JUnit.Test_3_4_CCI_Two_Stack_Queue">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Chapter2 in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter2" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Chapter4 in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
@@ -324,6 +331,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Test_3_4_CCI_Two_Stack_Queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.Test_3_4_CCI_Two_Stack_Queue" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -363,19 +393,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_3_1_CCI_Three_In_One" />
       <item itemvalue="JUnit.Test_3_2_CCI_StackMin" />
       <item itemvalue="JUnit.Test_3_3_CCI_Stack_Of_Plates" />
       <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
+      <item itemvalue="JUnit.Test_3_4_CCI_Two_Stack_Queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_3_4_CCI_Two_Stack_Queue" />
         <item itemvalue="JUnit.Test_3_3_CCI_Stack_Of_Plates" />
         <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
         <item itemvalue="JUnit.Test_3_2_CCI_StackMin" />
         <item itemvalue="JUnit.Test_3_1_CCI_Three_In_One" />
-        <item itemvalue="JUnit.Chapter2 in algorithms2ndtake" />
       </list>
     </recent_temporary>
   </component>
@@ -401,27 +431,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 10m 09s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 11m 17s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 12m 32s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 16m 22s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 20m 47s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 21m 30s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 24m 30s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 24m 39s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
     </history-entry>
@@ -430,6 +439,27 @@
     </history-entry>
     <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 27m 06s.xml">
       <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 16h 41m 47s.xml">
+      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 16h 43m 38s.xml">
+      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 03m 08s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 03m 21s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 04m 12s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 05m 58s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 10m 37s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -517,23 +547,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_5_CCI_One_Away.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_6_CCI_StringCompression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -943,7 +956,7 @@
     <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-617">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
@@ -954,8 +967,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+        <state relative-caret-position="409">
+          <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
