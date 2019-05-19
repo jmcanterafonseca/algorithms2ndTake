@@ -1,7 +1,7 @@
 package Chapter3;
 
 
-// CCI 3.3 A Stack of plates
+// CCI 3.4 a Queue built using two stacks
 public class Solution_3_4_CCI_Two_Stack_Queue<T> {
 
     private Stack<T> stack1 = null;

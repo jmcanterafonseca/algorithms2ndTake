@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="" />
+    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,26 +49,58 @@
       <file leaf-file-name="Solution_3_4_CCI_Two_Stack_Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#777#778#0" expanded="true" />
                 <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
                 <element signature="e#920#921#0" expanded="true" />
                 <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#2394#2395#0" expanded="true" />
+                <element signature="e#2437#2438#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_3_4_CCI_Two_Stack_Queue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_3_4_CCI_Two_Stack_Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+            <state relative-caret-position="485">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_3_5_CCI_SortStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_5_CCI_SortStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_3_5_CCI_SortStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_5_CCI_SortStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -86,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter1/Test_1_8_CCI_ZeroMatrix.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" />
         <option value="$PROJECT_DIR$/test/Chapter1/Test_1_9_StringRotation.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Solution_1_9_StringRotation.java" />
         <option value="$PROJECT_DIR$/test/Chapter1/Test_1_9_CCI_StringRotation.java" />
@@ -135,8 +167,10 @@
         <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_1_CCI_Three_In_One.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java" />
         <option value="$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java" />
         <option value="$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java" />
+        <option value="$PROJECT_DIR$/test/Chapter3/Test_3_5_CCI_SortStack.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_5_CCI_SortStack.java" />
       </list>
     </option>
   </component>
@@ -235,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_3_4_CCI_Two_Stack_Queue">
+  <component name="RunManager" selected="JUnit.Test_3_5_CCI_SortStack">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -253,29 +287,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Test_3_1_CCI_Three_In_One" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.Test_3_1_CCI_Three_In_One" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -354,6 +365,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Test_3_5_CCI_SortStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.Test_3_5_CCI_SortStack" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -393,19 +427,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_3_1_CCI_Three_In_One" />
       <item itemvalue="JUnit.Test_3_2_CCI_StackMin" />
       <item itemvalue="JUnit.Test_3_3_CCI_Stack_Of_Plates" />
       <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_3_4_CCI_Two_Stack_Queue" />
+      <item itemvalue="JUnit.Test_3_5_CCI_SortStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_3_5_CCI_SortStack" />
         <item itemvalue="JUnit.Test_3_4_CCI_Two_Stack_Queue" />
         <item itemvalue="JUnit.Test_3_3_CCI_Stack_Of_Plates" />
         <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
         <item itemvalue="JUnit.Test_3_2_CCI_StackMin" />
-        <item itemvalue="JUnit.Test_3_1_CCI_Three_In_One" />
       </list>
     </recent_temporary>
   </component>
@@ -431,27 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 24m 39s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 25m 53s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 14h 27m 06s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 16h 41m 47s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_3_CCI_Stack_Of_Plates - 2019.05.13 at 16h 43m 38s.xml">
-      <configuration name="Test_3_3_CCI_Stack_Of_Plates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 03m 08s.xml">
-      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 03m 21s.xml">
-      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 04m 12s.xml">
       <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
     </history-entry>
@@ -461,9 +474,31 @@
     <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 10m 37s.xml">
       <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 13m 58s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 15m 51s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_4_CCI_Two_Stack_Queue - 2019.05.17 at 21h 16m 11s.xml">
+      <configuration name="Test_3_4_CCI_Two_Stack_Queue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_5_CCI_SortStack - 2019.05.19 at 13h 51m 37s.xml">
+      <configuration name="Test_3_5_CCI_SortStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_5_CCI_SortStack - 2019.05.19 at 13h 55m 56s.xml">
+      <configuration name="Test_3_5_CCI_SortStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_5_CCI_SortStack - 2019.05.19 at 13h 56m 40s.xml">
+      <configuration name="Test_3_5_CCI_SortStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_3_5_CCI_SortStack - 2019.05.19 at 13h 57m 03s.xml">
+      <configuration name="Test_3_5_CCI_SortStack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1892" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,12 +508,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -547,26 +582,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_6_CCI_StringCompression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter1/Test_1_7_CCI_RotateMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_8_CCI_ZeroMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -975,25 +990,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java">
+    <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="485">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2437#2438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_5_CCI_SortStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_5_CCI_SortStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
           </folding>
         </state>
       </provider>
