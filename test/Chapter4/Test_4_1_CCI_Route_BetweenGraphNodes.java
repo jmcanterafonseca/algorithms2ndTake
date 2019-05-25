@@ -14,7 +14,8 @@ public class Test_4_1_CCI_Route_BetweenGraphNodes {
     void test0() {
         TestGraph testGraph = TestGraphBuilder.build(graph);
 
-        assertEquals("1,2,4,45,80,90,5,6,3,7", testGraph.listFirstDepth());
+        assertEquals("1,2,4,45,80,90,5,6,3,7", testGraph.listDepthFirst());
+        assertEquals("1,2,3,4,5,6,7,45,80,90", testGraph.listBreadthFirst());
 
         GraphNode<Integer> start = testGraph.start();
         boolean result = Solution_4_1_CCI_Route_BetweenGraphNodes.solution(start, start);

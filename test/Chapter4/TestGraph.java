@@ -1,8 +1,6 @@
 package Chapter4;
 
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class TestGraph {
     public  Map<Integer,GraphNode<Integer>> nodes;
@@ -15,27 +13,53 @@ public class TestGraph {
         return nodes.values().iterator().next();
     }
 
-    public String listFirstDepth() {
+    public String listDepthFirst() {
         StringBuffer out = new StringBuffer();
         Set<GraphNode<Integer>> visited = new HashSet<>();
 
-        listFirstDepth(start(), out, visited);
+        listDepthFirst(start(), out, visited);
 
         return out.toString();
     }
 
-    private void listFirstDepth(GraphNode<Integer> start, StringBuffer out, Set<GraphNode<Integer>> visited) {
-        out.append(start.value);
-        out.append(",");
-        visited.add(start);
+    public String listBreadthFirst() {
+        StringBuffer out = new StringBuffer();
+        Set<GraphNode<Integer>> visited = new HashSet<>();
+
+        Queue<GraphNode<Integer>> toVisit = new LinkedList<>();
+
+        toVisit.add(start());
+
+        while(!toVisit.isEmpty()) {
+            GraphNode<Integer> next = toVisit.remove();
+            if (!visited.contains(next)) {
+                visit(next, out, visited);
+            }
+            for(GraphNode<Integer> node:next.children) {
+                toVisit.add(node);
+            }
+        }
+
+        return out.substring(0, out.length() - 1);
+    }
+
+    private void listDepthFirst(GraphNode<Integer> start, StringBuffer out, Set<GraphNode<Integer>> visited) {
+        visit(start, out, visited);
 
         for(GraphNode<Integer> node: start.children) {
             if (!visited.contains(node)) {
-                listFirstDepth(node, out, visited);
+                listDepthFirst(node, out, visited);
                 out.append(",");
             }
         }
 
         out.deleteCharAt(out.length() - 1);
+    }
+
+    private void visit(GraphNode<Integer> node, StringBuffer out, Set<GraphNode<Integer>> visited) {
+        out.append(node.value);
+        out.append(",");
+
+        visited.add(node);
     }
 }
