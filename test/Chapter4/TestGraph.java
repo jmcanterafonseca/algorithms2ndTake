@@ -25,7 +25,7 @@ public class TestGraph {
     private void listDepthFirst(GraphNode<Integer> start, StringBuffer out, Set<GraphNode<Integer>> visited) {
         visit(start, out, visited);
 
-        for (GraphNode<Integer> node : start.children) {
+        for (GraphNode<Integer> node : start.adjacentNodes) {
             if (!visited.contains(node)) {
                 listDepthFirst(node, out, visited);
                 out.append(",");
@@ -48,7 +48,7 @@ public class TestGraph {
             if (!visited.contains(next)) {
                 visit(next, out, visited);
             }
-            for (GraphNode<Integer> node : next.children) {
+            for (GraphNode<Integer> node : next.adjacentNodes) {
                 toVisit.add(node);
             }
         }
