@@ -4,14 +4,13 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Solution_3_6_CCI_AnimalShelter {
+    private LinkedList<Animal> animalQueue = new LinkedList<>();
+    private Dog firstDog;
+    private Cat firstCat;
+
     public Solution_3_6_CCI_AnimalShelter() {
 
     }
-
-    private LinkedList<Animal> animalQueue = new LinkedList<>();
-
-    private Dog firstDog;
-    private Cat firstCat;
 
     public void addCat(Cat c) {
         animalQueue.add(c);
@@ -41,6 +40,11 @@ public class Solution_3_6_CCI_AnimalShelter {
             updateFirstDog();
         }
 
+        if (out instanceof Cat) {
+            firstCat = null;
+            updateFirstCat();
+        }
+
         return out;
     }
 
@@ -50,6 +54,8 @@ public class Solution_3_6_CCI_AnimalShelter {
         }
 
         Dog out = firstDog;
+
+        animalQueue.remove(out);
 
         firstDog = null;
 
@@ -64,6 +70,8 @@ public class Solution_3_6_CCI_AnimalShelter {
         }
 
         Cat out = firstCat;
+
+        animalQueue.remove(out);
 
         firstCat = null;
 

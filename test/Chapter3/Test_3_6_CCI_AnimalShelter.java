@@ -12,14 +12,17 @@ public class Test_3_6_CCI_AnimalShelter {
     void test10() {
         Solution_3_6_CCI_AnimalShelter shelter = new Solution_3_6_CCI_AnimalShelter();
 
-       Solution_3_6_CCI_AnimalShelter.Dog d = new  Solution_3_6_CCI_AnimalShelter.Dog("Bob");
+        Solution_3_6_CCI_AnimalShelter.Dog d = new Solution_3_6_CCI_AnimalShelter.Dog("Bob");
 
-       Solution_3_6_CCI_AnimalShelter.Cat c = new  Solution_3_6_CCI_AnimalShelter.Cat("kitty");
+        Solution_3_6_CCI_AnimalShelter.Cat c = new Solution_3_6_CCI_AnimalShelter.Cat("kitty");
 
-       shelter.addDog(d);
-       shelter.addCat(c);
+        shelter.addDog(d);
+        shelter.addCat(c);
 
-       assertEquals(d.name, shelter.adoptAnimal().name);
+        assertEquals(d.name, shelter.adoptAnimal().name);
+        assertEquals(c.name, shelter.adoptCat().name);
+
+        assertTrue(shelter.isEmpty());
     }
 
     @Test
@@ -33,9 +36,9 @@ public class Test_3_6_CCI_AnimalShelter {
     void test12() {
         Solution_3_6_CCI_AnimalShelter shelter = new Solution_3_6_CCI_AnimalShelter();
 
-        Solution_3_6_CCI_AnimalShelter.Dog d = new  Solution_3_6_CCI_AnimalShelter.Dog("Bob");
-        Solution_3_6_CCI_AnimalShelter.Cat c = new  Solution_3_6_CCI_AnimalShelter.Cat("kitty");
-        Solution_3_6_CCI_AnimalShelter.Dog d2 = new  Solution_3_6_CCI_AnimalShelter.Dog("John");
+        Solution_3_6_CCI_AnimalShelter.Dog d = new Solution_3_6_CCI_AnimalShelter.Dog("Bob");
+        Solution_3_6_CCI_AnimalShelter.Cat c = new Solution_3_6_CCI_AnimalShelter.Cat("kitty");
+        Solution_3_6_CCI_AnimalShelter.Dog d2 = new Solution_3_6_CCI_AnimalShelter.Dog("John");
 
         shelter.addDog(d);
         shelter.addCat(c);
@@ -48,9 +51,9 @@ public class Test_3_6_CCI_AnimalShelter {
     void test13() {
         Solution_3_6_CCI_AnimalShelter shelter = new Solution_3_6_CCI_AnimalShelter();
 
-        Solution_3_6_CCI_AnimalShelter.Cat c = new  Solution_3_6_CCI_AnimalShelter.Cat("kitty");
-        Solution_3_6_CCI_AnimalShelter.Dog d = new  Solution_3_6_CCI_AnimalShelter.Dog("Bob");
-        Solution_3_6_CCI_AnimalShelter.Dog d2 = new  Solution_3_6_CCI_AnimalShelter.Dog("John");
+        Solution_3_6_CCI_AnimalShelter.Cat c = new Solution_3_6_CCI_AnimalShelter.Cat("kitty");
+        Solution_3_6_CCI_AnimalShelter.Dog d = new Solution_3_6_CCI_AnimalShelter.Dog("Bob");
+        Solution_3_6_CCI_AnimalShelter.Dog d2 = new Solution_3_6_CCI_AnimalShelter.Dog("John");
 
         shelter.addCat(c);
         shelter.addDog(d);
