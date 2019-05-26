@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -93,21 +93,20 @@
       <file leaf-file-name="Solution_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="53" />
+            <state relative-caret-position="741">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-103">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestGraph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            <state relative-caret-position="798">
+              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="30" />
               <folding>
                 <element signature="e#263#264#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
@@ -154,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter2/IntegerLinkedList.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/TestLinkedListBuilder.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_TestLinkedListBuilder.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/Solution_2_1_Remove_Dups.java" />
@@ -202,9 +200,10 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenGraphNodes.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/TestGraph.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/TestGraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" />
       </list>
     </option>
   </component>
@@ -263,12 +262,6 @@
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
@@ -511,24 +504,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 17h 17m 07s.xml">
-      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 17h 20m 42s.xml">
-      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 17h 23m 03s.xml">
-      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 17h 51m 28s.xml">
-      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 18h 19m 06s.xml">
-      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 18h 19m 46s.xml">
-      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 18h 26m 19s.xml">
       <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
     </history-entry>
@@ -539,6 +514,24 @@
       <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.25 at 18h 29m 13s.xml">
+      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.26 at 10h 34m 43s.xml">
+      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.26 at 10h 36m 49s.xml">
+      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.26 at 10h 42m 03s.xml">
+      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.26 at 10h 43m 34s.xml">
+      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.26 at 10h 44m 37s.xml">
+      <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_1_CCI_Route_BetweenGraphNodes - 2019.05.26 at 10h 45m 59s.xml">
       <configuration name="Test_4_1_CCI_Route_BetweenGraphNodes" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -554,12 +547,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1042,31 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="53" />
-          <folding>
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1085,13 +1057,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state relative-caret-position="798">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="30" />
           <folding>
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,9 +3,9 @@ package Chapter4;
 import java.util.*;
 
 public class TestGraph {
-    public  Map<Integer,GraphNode<Integer>> nodes;
+    public Map<Integer, GraphNode<Integer>> nodes;
 
-    public TestGraph(Map<Integer,GraphNode<Integer>> nodes) {
+    public TestGraph(Map<Integer, GraphNode<Integer>> nodes) {
         this.nodes = nodes;
     }
 
@@ -22,6 +22,19 @@ public class TestGraph {
         return out.toString();
     }
 
+    private void listDepthFirst(GraphNode<Integer> start, StringBuffer out, Set<GraphNode<Integer>> visited) {
+        visit(start, out, visited);
+
+        for (GraphNode<Integer> node : start.children) {
+            if (!visited.contains(node)) {
+                listDepthFirst(node, out, visited);
+                out.append(",");
+            }
+        }
+
+        out.deleteCharAt(out.length() - 1);
+    }
+
     public String listBreadthFirst() {
         StringBuffer out = new StringBuffer();
         Set<GraphNode<Integer>> visited = new HashSet<>();
@@ -30,30 +43,17 @@ public class TestGraph {
 
         toVisit.add(start());
 
-        while(!toVisit.isEmpty()) {
+        while (!toVisit.isEmpty()) {
             GraphNode<Integer> next = toVisit.remove();
             if (!visited.contains(next)) {
                 visit(next, out, visited);
             }
-            for(GraphNode<Integer> node:next.children) {
+            for (GraphNode<Integer> node : next.children) {
                 toVisit.add(node);
             }
         }
 
         return out.substring(0, out.length() - 1);
-    }
-
-    private void listDepthFirst(GraphNode<Integer> start, StringBuffer out, Set<GraphNode<Integer>> visited) {
-        visit(start, out, visited);
-
-        for(GraphNode<Integer> node: start.children) {
-            if (!visited.contains(node)) {
-                listDepthFirst(node, out, visited);
-                out.append(",");
-            }
-        }
-
-        out.deleteCharAt(out.length() - 1);
     }
 
     private void visit(GraphNode<Integer> node, StringBuffer out, Set<GraphNode<Integer>> visited) {
