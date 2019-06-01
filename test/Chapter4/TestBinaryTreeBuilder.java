@@ -35,6 +35,10 @@ public class TestBinaryTreeBuilder {
             String[] children = parts[1].split(",");
 
             for (int k = 0; k < children.length; k++) {
+                if (children[k] == null || children[k].trim().length() == 0) {
+                    continue;
+                }
+
                 int childValue = Integer.parseInt(children[k]);
                 BinaryTreeNode<Integer> childNode = new BinaryTreeNode<>(node, childValue);
                 if (k == 0) {
