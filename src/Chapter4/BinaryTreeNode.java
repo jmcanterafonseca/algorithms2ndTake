@@ -2,11 +2,11 @@ package Chapter4;
 
 public class BinaryTreeNode<T> {
     // Left and right child
-    public BinaryTreeNode left;
-    public BinaryTreeNode right;
+    public BinaryTreeNode<T> left;
+    public BinaryTreeNode<T> right;
 
     // If parent == null then it is the root node
-    public BinaryTreeNode parent;
+    public BinaryTreeNode<T> parent;
 
     // Height of the left subtree (Added for 4.4)
     public int leftHeight = -1;
