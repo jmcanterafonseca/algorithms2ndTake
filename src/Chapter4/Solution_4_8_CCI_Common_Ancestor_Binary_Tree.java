@@ -2,7 +2,7 @@ package Chapter4;
 
 // Given two nodes of a binary tree finds the common ancestor
 // Assumption is that both nodes actually exist within the tree
-public class Solution_Common_Ancestor_Binary_Tree {
+public class Solution_4_8_CCI_Common_Ancestor_Binary_Tree {
     public static BinaryTreeNode<Integer> solution(BinaryTreeNode<Integer> n1, BinaryTreeNode<Integer> n2) {
         return commonAncestor(n1, n2);
     }
