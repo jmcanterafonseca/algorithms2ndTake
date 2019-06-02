@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 // Builds a Binary Search Tree (with minimal height) from a sorted array (increasing order)
-public class Test_4_5_CCI_Check_BST {
+public class Test_4_5_CCI_Check_BST_Does_Not_Work {
 
     @Test
     void test10() {
@@ -15,7 +15,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertTrue(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -24,7 +24,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertTrue(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -33,7 +33,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -42,7 +42,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertTrue(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -51,7 +51,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -60,7 +60,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertTrue(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -69,7 +69,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -78,7 +78,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -87,7 +87,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -96,7 +96,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -105,7 +105,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertTrue(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -114,7 +114,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertTrue(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -123,7 +123,7 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
@@ -132,15 +132,15 @@ public class Test_4_5_CCI_Check_BST {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 
     @Test
     void test24() {
-        String tree = "22\n22->9\n9->8,12\n12->11,20";
+        String tree = "22\n22->9\n9->8,12\n12->7,20";
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+        assertFalse(Solution_4_5_CCI_Check_BST_Does_Not_Work.solution(testTree.root));
     }
 }

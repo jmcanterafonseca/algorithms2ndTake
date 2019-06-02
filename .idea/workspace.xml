@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_3_CCI_List_Of_Depths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_3_CCI_List_Of_Depths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_4_CCI_Check_BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_4_CCI_Check_BalancedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST_Does_Not_Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,40 +35,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java">
+      <file leaf-file-name="Solution_4_5_CCI_Check_BST_Does_Not_Work.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST_Does_Not_Work.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_4_4_CCI_Check_BalancedTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_4_5_CCI_Check_BST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="304">
+              <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
               <folding>
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_4_5_CCI_Check_BST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_4_5_CCI_Check_BST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1412">
+              <caret line="139" column="49" selection-start-line="139" selection-start-column="49" selection-end-line="139" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -122,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_4_5_CCI_Check_BST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java">
+      <file leaf-file-name="Test_4_5_CCI_Check_BST_Does_Not_Work.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="2641">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
             </state>
           </provider>
         </entry>
@@ -159,10 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter2/Test_Reverse_List.java" />
-        <option value="$PROJECT_DIR$/test/Chapter2/Test_LinkedList_Last_K.java" />
-        <option value="$PROJECT_DIR$/test/Chapter2/Test_2_5_CCI_SumList.java" />
-        <option value="$PROJECT_DIR$/test/Chapter2/Test_2_4_CCI_Partition.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_3_CCI_DeleteMiddleNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_2_CCI_KthToLast.java" />
         <option value="$PROJECT_DIR$/test/Chapter2/Test_2_1_CCI_RemoveDups.java" />
@@ -208,8 +193,12 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_3_CCI_List_Of_Depths.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST_2.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST_Does_Not_Work.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java" />
       </list>
     </option>
   </component>
@@ -296,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_4_5_CCI_Check_BST">
+  <component name="RunManager" selected="JUnit.Test_4_5_CCI_Check_BST_2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -312,29 +301,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter3" />
       <option name="MAIN_CLASS_NAME" value="Chapter3.Test_3_6_CCI_AnimalShelter" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Test_4_3_CCI_List_Of_Depths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_4_3_CCI_List_Of_Depths" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -381,6 +347,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter4" />
       <option name="MAIN_CLASS_NAME" value="Chapter4.Test_4_5_CCI_Check_BST" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test_4_5_CCI_Check_BST_Does_Not_Work" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_4_5_CCI_Check_BST_Does_Not_Work" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -454,19 +443,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_4_3_CCI_List_Of_Depths" />
       <item itemvalue="JUnit.Test_3_6_CCI_AnimalShelter" />
       <item itemvalue="JUnit.Test_4_4_CCI_Check_BalancedTree" />
       <item itemvalue="JUnit.Test_Common_Ancestor_Binary_Tree" />
-      <item itemvalue="JUnit.Test_4_5_CCI_Check_BST" />
+      <item itemvalue="JUnit.Test_4_5_CCI_Check_BST_Does_Not_Work" />
+      <item itemvalue="JUnit.Test_4_5_CCI_Check_BST_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_4_5_CCI_Check_BST" />
+        <item itemvalue="JUnit.Test_4_5_CCI_Check_BST_2" />
+        <item itemvalue="JUnit.Test_4_5_CCI_Check_BST_Does_Not_Work" />
         <item itemvalue="JUnit.Test_4_4_CCI_Check_BalancedTree" />
         <item itemvalue="JUnit.Test_Common_Ancestor_Binary_Tree" />
         <item itemvalue="JUnit.Test_3_6_CCI_AnimalShelter" />
-        <item itemvalue="JUnit.Test_4_3_CCI_List_Of_Depths" />
       </list>
     </recent_temporary>
   </component>
@@ -492,21 +481,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 11h 07m 53s.xml">
-      <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 11h 09m 27s.xml">
-      <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 11h 45m 35s.xml">
-      <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 11h 48m 51s.xml">
-      <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 12h 00m 23s.xml">
-      <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 12h 26m 03s.xml">
       <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
     </history-entry>
@@ -522,6 +496,21 @@
     <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 12h 34m 53s.xml">
       <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_4_5_CCI_Check_BST_2 - 2019.06.02 at 13h 43m 13s.xml">
+      <configuration name="Test_4_5_CCI_Check_BST_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_5_CCI_Check_BST_2 - 2019.06.02 at 13h 49m 36s.xml">
+      <configuration name="Test_4_5_CCI_Check_BST_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 13h 52m 11s.xml">
+      <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_5_CCI_Check_BST_Does_Not_Work - 2019.06.02 at 13h 53m 26s.xml">
+      <configuration name="Test_4_5_CCI_Check_BST_Does_Not_Work" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_4_5_CCI_Check_BST - 2019.06.02 at 13h 53m 34s.xml">
+      <configuration name="Test_4_5_CCI_Check_BST" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1892" height="985" extended-state="0" />
@@ -534,12 +523,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -610,7 +599,7 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java</url>
+          <url>file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="27" />
@@ -620,26 +609,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_4_CCI_Partition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_3_CCI_DeleteMiddleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_2_CCI_KthToLast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -1081,19 +1050,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="1412">
+          <caret line="139" column="49" selection-start-line="139" selection-start-column="49" selection-end-line="139" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="779">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST_Does_Not_Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding>
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
         </state>
       </provider>
     </entry>
