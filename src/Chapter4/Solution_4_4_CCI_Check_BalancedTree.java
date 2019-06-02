@@ -1,7 +1,6 @@
 package Chapter4;
 
-// Given two nodes of a binary tree finds the common ancestor
-// Assumption is that both nodes actually exist within the tree
+// Checks whether a binary tree is a balanced tree
 public class Solution_4_4_CCI_Check_BalancedTree {
     public static boolean solution(BinaryTreeNode<Integer> root) {
         return checkBalanced(root);

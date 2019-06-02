@@ -1,6 +1,6 @@
 package Chapter4;
 
-// Builds a Binary Search Tree (with minimal height) from a sorted array (increasing order)
+// CCI 4.2 Builds a Binary Search Tree (with minimal height) from a sorted array (increasing order)
 public class Solution_4_2_CCI_Minimal_Height_Tree {
     // The root of the BST created is returned
     public static BinaryTreeNode<Integer> solution(int[] sortedArray) {

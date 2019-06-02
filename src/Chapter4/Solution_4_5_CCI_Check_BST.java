@@ -1,53 +1,92 @@
 package Chapter4;
 
-// Given two nodes of a binary tree finds the common ancestor
-// Assumption is that both nodes actually exist within the tree
+// Checks whether a binary tree is a Binary Search Tree (BST)
 public class Solution_4_5_CCI_Check_BST {
     public static boolean solution(BinaryTreeNode<Integer> root) {
-        return checkBST(root);
+        return checkTree(root);
     }
 
-    private static boolean checkBST(BinaryTreeNode<Integer> subtreeRoot) {
-        if (subtreeRoot == null) {
+    private static boolean checkTree(BinaryTreeNode<Integer> subtree) {
+        if (subtree == null) {
             return true;
         }
 
-        boolean out = isBST(subtreeRoot);
-        if (out) {
-            out = isBST(subtreeRoot.left);
+        boolean out = true;
+        if (subtree.left != null) {
+            out = (subtree.left.value <= subtree.value);
+            if (out) {
+                out = isLeftBST(subtree.left, subtree.value);
+            }
+            if (out) {
+                checkTree(subtree.left);
+            }
         }
 
-        if (out) {
-            out = isBST(subtreeRoot.right);
+        if (out && subtree.right != null) {
+            out = (subtree.right.value >= subtree.value);
+            if (out) {
+                out = isRightBST(subtree, subtree.value);
+            }
+            if (out) {
+                out = checkTree(subtree.right);
+            }
         }
 
         return out;
     }
 
-    private static boolean isBST(BinaryTreeNode<Integer> subtree) {
+    private static boolean isLeftBST(BinaryTreeNode<Integer> subtree, int referenceValue) {
         if (subtree == null) {
             return true;
         }
 
-        BinaryTreeNode<Integer> parent = subtree.parent;
+        boolean out = true;
+        if (subtree.left != null) {
+            out = (subtree.left.value <= subtree.value);
+            if (out) {
+                out = subtree.left.value <= referenceValue;
+            }
+            if (out) {
+                out = isLeftBST(subtree.left, referenceValue);
+            }
+        }
+
+        if (subtree.right != null) {
+            out = subtree.right.value >= subtree.value;
+            if (out) {
+                out = subtree.right.value <= referenceValue;
+            }
+            if (out) {
+                out = isLeftBST(subtree.right, referenceValue);
+            }
+        }
+
+        return out;
+    }
+
+    private static boolean isRightBST(BinaryTreeNode<Integer> subtree, int referenceValue) {
+        if (subtree == null) {
+            return true;
+        }
 
         boolean out = true;
         if (subtree.left != null) {
-            out = (subtree.left.value < subtree.value);
-            if (out && parent != null && parent.left == subtree) {
-                out = (parent.value > subtree.left.value);
+            out = (subtree.left.value <= subtree.value);
+            if (out) {
+                out = subtree.left.value >= referenceValue;
             }
-            if (out && parent != null && parent.right == subtree) {
-                out = (parent.value < subtree.left.value);
+            if (out) {
+                out = isRightBST(subtree.left, referenceValue);
             }
         }
-        if (subtree.right != null && out) {
-            out = (subtree.right.value > subtree.value);
-            if (out && parent != null && parent.right == subtree) {
-                out = (parent.value < subtree.right.value);
+
+        if (subtree.right != null) {
+            out = (subtree.right.value >= subtree.value);
+            if (out) {
+                out = subtree.right.value >= referenceValue;
             }
-            if (out && parent != null && parent.left == subtree) {
-                out = (parent.value > subtree.right.value);
+            if (out) {
+                out = isRightBST(subtree.right, referenceValue);
             }
         }
 

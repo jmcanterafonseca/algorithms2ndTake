@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-// Given two nodes of a binary tree finds the common ancestor
-// Assumption is that both nodes actually exist within the tree
+// list of depths CCI 4.3
 public class Solution_4_3_CCI_List_Of_Depths {
     public static List<LinkedList<BinaryTreeNode<Integer>>> solution(BinaryTreeNode<Integer> root) {
         List<LinkedList<BinaryTreeNode<Integer>>> out = new ArrayList<>();

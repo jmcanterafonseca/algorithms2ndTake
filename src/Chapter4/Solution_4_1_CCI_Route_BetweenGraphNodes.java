@@ -3,8 +3,7 @@ package Chapter4;
 import java.util.HashSet;
 import java.util.Set;
 
-// Given a directed graph design an algorithm to check whether there is a path between a pair of nodes
-// Assumption is that both nodes actually exist within the graph
+// CCI 4.1 Find a route between two nodes in a Graph
 public class Solution_4_1_CCI_Route_BetweenGraphNodes {
     public static boolean solution(GraphNode<Integer> n1, GraphNode<Integer> n2) {
         Set<GraphNode<Integer>> visited = new HashSet<>();

@@ -116,4 +116,31 @@ public class Test_4_5_CCI_Check_BST {
 
         assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
     }
+
+    @Test
+    void test22() {
+        String tree = "20\n20->15,30\n15->12,19\n19->,25";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+    }
+
+    @Test
+    void test23() {
+        String tree = "22\n22->9\n9->8,12\n12->7,34";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        assertFalse(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+    }
+
+    @Test
+    void test24() {
+        String tree = "22\n22->9\n9->8,12\n12->7,20";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        assertTrue(Solution_4_5_CCI_Check_BST.solution(testTree.root));
+    }
 }

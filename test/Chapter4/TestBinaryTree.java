@@ -59,4 +59,8 @@ public class TestBinaryTree {
 
         return buffer.substring(0, buffer.length());
     }
+
+    public String prettyPrint() {
+        return "";
+    }
 }
