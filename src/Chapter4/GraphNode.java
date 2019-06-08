@@ -6,6 +6,7 @@ import java.util.List;
 public class GraphNode<T> {
     public T value;
     public List<GraphNode<T>> adjacentNodes;
+    public boolean visited = false;
 
     public GraphNode(T value) {
         this.value = value;
