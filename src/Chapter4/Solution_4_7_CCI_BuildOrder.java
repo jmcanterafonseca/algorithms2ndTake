@@ -46,6 +46,7 @@ public class Solution_4_7_CCI_BuildOrder {
         return out;
     }
 
+    // Builds the dependency graph that will be used later to calculate the build order of projects
     private static Map<String, GraphNode<String>> buildDependencyGraph(String[] projects, String[][] dependencies) {
         Map<String, GraphNode<String>> projectMap = new HashMap<>();
 

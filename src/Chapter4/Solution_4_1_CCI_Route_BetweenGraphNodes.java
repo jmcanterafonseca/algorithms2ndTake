@@ -22,16 +22,12 @@ public class Solution_4_1_CCI_Route_BetweenGraphNodes {
 
         for (GraphNode<Integer> node : n1.adjacentNodes) {
             if (!visited.contains(node)) {
-                if (isEqualNode(node, n2)) {
-                    out = true;
+                out = search(node, n2, visited);
+                if (out) {
                     break;
-                } else {
-                    out = search(node, n2, visited);
-                    if (out) {
-                        break;
-                    }
                 }
             }
+
         }
 
         return out;
