@@ -21,13 +21,13 @@ public class Solution_4_9_BST_Sequence {
         List<List<Integer>> second = bstSequence(node.right);
 
         if (second.size() == 0) {
-            for(List<Integer> list : first) {
+            for (List<Integer> list : first) {
                 list.add(0, node.value);
                 out.add(list);
             }
         }
 
-        for(List<Integer> list : first) {
+        for (List<Integer> list : first) {
             for (List<Integer> rest : second) {
                 List<Integer> newList = new ArrayList<>();
 
@@ -40,13 +40,13 @@ public class Solution_4_9_BST_Sequence {
         }
 
         if (first.size() == 0) {
-            for(List<Integer> list : second) {
+            for (List<Integer> list : second) {
                 list.add(0, node.value);
                 out.add(list);
             }
         }
 
-        for(List<Integer> list : second) {
+        for (List<Integer> list : second) {
             for (List<Integer> rest : first) {
                 List<Integer> newList = new ArrayList<>();
 

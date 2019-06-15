@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 public class Test_4_9_CCI_BST_Sequences {
 
@@ -68,6 +66,17 @@ public class Test_4_9_CCI_BST_Sequences {
     @Test
     void test5() {
         String tree = "6\n6->10\n10->14\n14->11,15";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        BinaryTreeNode<Integer> root = testTree.root;
+
+        System.out.println(Arrays.toString(Solution_4_9_BST_Sequence.solution(root).toArray()));
+    }
+
+    @Test
+    void test6() {
+        String tree = "10\n10->6\n6->4,8\n4->,5\n8->,9";
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
