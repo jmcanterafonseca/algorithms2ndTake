@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,16 +39,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="158" column="61" selection-start-line="158" selection-start-column="61" selection-end-line="158" selection-end-column="61" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1840#1841#0" expanded="true" />
                 <element signature="e#1887#1888#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreePrettyPrinter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -88,17 +111,8 @@
       <file leaf-file-name="Test_Pretty_Print_Binary_Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphLoopDetector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="380">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -130,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter3/Test_3_1_CCI_Three_In_One.java" />
-        <option value="$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_StackMin.java" />
         <option value="$PROJECT_DIR$/test/Chapter3/Test_3_2_CCI_StackMin.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_2_CCI_StackMin.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/Solution_3_1_CCI_Three_In_One.java" />
@@ -154,7 +166,6 @@
         <option value="$PROJECT_DIR$/test/Chapter3/Test_3_6_CCI_AnimalShelter.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_4_CCI_Check_BalancedTree.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_3_CCI_List_Of_Depths.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java" />
@@ -179,8 +190,11 @@
         <option value="$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_BuildOrder.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/TreePrettyPrinter.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java" />
       </list>
     </option>
   </component>
@@ -457,34 +471,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 18h 44m 38s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 12h 49m 34s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 18h 50m 46s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 12h 49m 41s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 18h 51m 57s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 12h 54m 41s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 18h 52m 17s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 12h 55m 17s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 18h 52m 56s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 12h 56m 16s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 18h 59m 21s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 12h 56m 55s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 18h 59m 47s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 12h 57m 46s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 19h 02m 23s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 13h 03m 49s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 19h 05m 35s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 13h 21m 06s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.09 at 19h 05m 55s.xml">
+    <history-entry file="Test_Pretty_Print_Binary_Tree - 2019.06.15 at 13h 21m 13s.xml">
       <configuration name="Test_Pretty_Print_Binary_Tree" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -500,19 +514,19 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45444566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45444566" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39846322" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2996707" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,23 +608,22 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java</url>
-          <line>148</line>
+          <url>file://$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java</url>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/IntegerLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution_2_6_CCI_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -808,17 +821,6 @@
           <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1060,21 +1062,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="513">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="158" column="61" selection-start-line="158" selection-start-column="61" selection-end-line="158" selection-end-column="61" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1840#1841#0" expanded="true" />
             <element signature="e#1887#1888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
           </folding>
         </state>
       </provider>

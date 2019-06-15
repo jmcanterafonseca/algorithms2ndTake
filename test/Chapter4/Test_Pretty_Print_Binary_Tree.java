@@ -3,113 +3,125 @@ package Chapter4;
 import org.junit.jupiter.api.Test;
 
 
-// Builds a Binary Search Tree (with minimal height) from a sorted array (increasing order)
+// Tests pretty printing of binary trees
 public class Test_Pretty_Print_Binary_Tree {
-    /*
-        @Test
-        void test10() {
-            String tree = "1";
 
-            TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+    @Test
+    void test10() {
+        String tree = "1";
 
-            System.out.println(testTree.prettyPrint());
-            System.out.println(testTree.prettyPrintAsAsciiArt());
-        }
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        @Test
-        void test11() {
-            String tree = "1\n1->2,4";
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
 
-            TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-            System.out.println(testTree.prettyPrint());
-            System.out.println(testTree.prettyPrintAsAsciiArt());
-        }
+    @Test
+    void test11() {
+        String tree = "1\n1->2,4";
 
-        @Test
-        void test12() {
-            String tree = "1\n1->2";
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-            TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
 
-            System.out.println(testTree.prettyPrint());
-            System.out.println(testTree.prettyPrintAsAsciiArt());
-        }
+    @Test
+    void test12() {
+        String tree = "1\n1->2";
 
-        @Test
-        void test13() {
-            String tree = "1\n1->,4";
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-            TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
 
-            System.out.println(testTree.prettyPrint());
-            System.out.println(testTree.prettyPrintAsAsciiArt());
-        }
+    @Test
+    void test13() {
+        String tree = "1\n1->,4";
 
-        @Test
-        void test14() {
-            String tree = "1\n1->2,4\n2->3";
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-            TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
 
-            System.out.println(testTree.prettyPrint());
-            System.out.println(testTree.prettyPrintAsAsciiArt());
-        }
-    */
+    @Test
+    void test14() {
+        String tree = "1\n1->2,4\n2->3";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
+
     @Test
     void test15() {
         String tree = "1\n1->2,4\n2->3\n4->,5";
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
-        System.out.println(testTree.prettyPrintAsAsciiArt());
-    }
-
-    /*
-    @Test
-    void test12() {
-        String tree = "1\n1->,4\n4->,2";
-
-        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
-
-        System.out.println(testTree.prettyPrint());
-    }
-
-    @Test
-    void test13() {
-        String tree = "1\n1->,4\n4->2";
-
-        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
-
-        System.out.println(testTree.prettyPrint());
-    }
-
-    @Test
-    void test14() {
-        String tree = "1\n1->,4\n4->2,3";
-
-        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
-
-        System.out.println(testTree.prettyPrint());
-    }
-
-    @Test
-    void test15() {
-        String tree = "10\n10->,40\n40->12";
-
-        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
-
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
     void test16() {
+        String tree = "1\n1->2,4\n2->3\n4->,5\n5->7";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
+
+    @Test
+    void test171() {
+        String tree = "1\n1->2,4\n2->3\n4->,5\n5->7,78";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
+
+    @Test
+    void test121() {
+        String tree = "1\n1->,4\n4->,2";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
+
+    @Test
+    void test131() {
+        String tree = "1\n1->,4\n4->2";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
+
+    @Test
+    void test141() {
+        String tree = "1\n1->,4\n4->2,3";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
+
+    @Test
+    void test151() {
+        String tree = "10\n10->,40\n40->12";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
+
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
+    }
+
+    @Test
+    void test161() {
         String tree = "15\n15->,40\n40->12";
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -118,7 +130,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -127,7 +139,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -136,7 +148,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -145,7 +157,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -154,7 +166,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -163,7 +175,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -172,7 +184,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
 
     @Test
@@ -181,7 +193,7 @@ public class Test_Pretty_Print_Binary_Tree {
 
         TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree);
 
-        System.out.println(testTree.prettyPrint());
+        System.out.println(BinaryTreePrettyPrinter.print(testTree.root));
     }
-    */
+
 }
