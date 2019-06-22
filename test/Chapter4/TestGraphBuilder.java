@@ -55,7 +55,7 @@ public class TestGraphBuilder {
             String[] children = parts[1].split(",");
 
             for (int k = 0; k < children.length; k++) {
-                String[] nodeWeightTuple = children[k].split("|");
+                String[] nodeWeightTuple = children[k].split("\\|");
 
                 T childValue = (T)parser.parse(nodeWeightTuple[0]);
 
