@@ -14,7 +14,7 @@ public class Test_Graph_Path_Finder {
 
     @Test
     void test0() {
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
 
         GraphNode<Integer> start = testGraph.start();
@@ -27,7 +27,7 @@ public class Test_Graph_Path_Finder {
 
     @Test
     void test1() {
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
         GraphNode<Integer> start = testGraph.start();
         List<Integer> result = new GraphPathFinder<Integer>().calculate(start, testGraph.nodes.get(6));
@@ -39,7 +39,7 @@ public class Test_Graph_Path_Finder {
 
     @Test
     void test2() {
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
         GraphNode<Integer> start = testGraph.start();
         List<Integer> result = new GraphPathFinder<Integer>().calculate(testGraph.nodes.get(2), testGraph.nodes.get(45));
@@ -50,7 +50,7 @@ public class Test_Graph_Path_Finder {
 
     @Test
     void test3() {
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
         GraphNode<Integer> start = testGraph.start();
         List<Integer> result = new GraphPathFinder<Integer>().calculate(testGraph.nodes.get(5), testGraph.nodes.get(45));
@@ -61,7 +61,7 @@ public class Test_Graph_Path_Finder {
 
     @Test
     void test4() {
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
         GraphNode<Integer> start = testGraph.start();
         List<Integer> result = new GraphPathFinder<Integer>().calculate(testGraph.nodes.get(80), testGraph.nodes.get(90));
@@ -71,7 +71,7 @@ public class Test_Graph_Path_Finder {
 
     @Test
     void test5() {
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
         GraphNode<Integer> start = testGraph.start();
         List<Integer> result = new GraphPathFinder<Integer>().calculate(testGraph.start(), testGraph.nodes.get(45));
@@ -82,7 +82,7 @@ public class Test_Graph_Path_Finder {
 
     @Test
     void test6() {
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
         GraphNode<Integer> start = testGraph.start();
         List<Integer> result = new GraphPathFinder<Integer>().calculate(testGraph.nodes.get(4), testGraph.nodes.get(5));
@@ -94,7 +94,7 @@ public class Test_Graph_Path_Finder {
     void test7() {
         String graphStr = "1->2,3\n3->45,2\n2->11";
 
-        TestGraph testGraph = TestGraphBuilder.build(graphStr);
+        TestGraph<Integer> testGraph = TestGraphBuilder.build(graphStr);
 
         GraphNode<Integer> start = testGraph.start();
         List<Integer> result = new GraphPathFinder<Integer>().calculate(testGraph.nodes.get(3), testGraph.nodes.get(11));
