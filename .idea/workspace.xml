@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/GraphNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,55 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution_4_9_BST_Sequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_9_BST_Sequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_4_9_CCI_BST_Sequences.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_9_CCI_BST_Sequences.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_1_2_CCI_Permutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_2_CCI_Permutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-291">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_1_4_CCI_Palindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_4_CCI_Palindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution_4_10_CCI_Check_Subtree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="109" column="38" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
+            <state relative-caret-position="197">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -110,7 +71,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestGraph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestGraphBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Graph_Path_Finder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
@@ -125,18 +153,6 @@
                 <element signature="e#5243#5244#0" expanded="true" />
                 <element signature="e#5380#5381#0" expanded="true" />
                 <element signature="e#5438#5439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,9 +177,6 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenGraphNodes.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/TestGraph.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_2_CCI_Minimal_Height_Tree.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_List_Of_Depths.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_3_CCI_List_Of_Depths.java" />
@@ -185,12 +198,10 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_6_CCI_Sucessor.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_6_CCI_Sucessor.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_Sucessor.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/GraphNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Detect_Graph_Loops.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_Detect_Graph_Loops.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/CircularDependencyDetected.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_7_CCI_BuildOrder.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphPathFinder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" />
@@ -208,6 +219,11 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/TestGraph.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/GraphNode.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
       </list>
     </option>
   </component>
@@ -300,15 +316,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_4_11_CCI_RandomNode">
+  <component name="RunManager" selected="JUnit.Test_Graph_Path_Finder.test2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="All in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter4 in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -390,7 +412,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_Pretty_Print_Binary_Tree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Graph_Path_Finder.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
@@ -401,9 +423,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Pretty_Print_Binary_Tree" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Graph_Path_Finder" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -452,19 +474,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in algorithms2ndtake" />
-      <item itemvalue="JUnit.Test_Pretty_Print_Binary_Tree" />
       <item itemvalue="JUnit.Test_4_9_CCI_BST_Sequences" />
       <item itemvalue="JUnit.Test_4_10_CCI_Check_Subtree" />
       <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
+      <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
+      <item itemvalue="JUnit.Test_Graph_Path_Finder.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_Graph_Path_Finder.test2" />
+        <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
         <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
         <item itemvalue="JUnit.Test_4_10_CCI_Check_Subtree" />
         <item itemvalue="JUnit.Test_4_9_CCI_BST_Sequences" />
-        <item itemvalue="JUnit.Test_Pretty_Print_Binary_Tree" />
-        <item itemvalue="JUnit.All in algorithms2ndtake" />
       </list>
     </recent_temporary>
   </component>
@@ -490,27 +512,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 17m 18s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 18m 14s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 19m 29s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 20m 41s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 35m 05s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 47m 10s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 48m 30s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 49m 04s.xml">
       <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
     </history-entry>
@@ -519,6 +520,27 @@
     </history-entry>
     <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 50m 39s.xml">
       <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 14h 11m 27s.xml">
+      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 16h 31m 08s.xml">
+      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 16h 42m 10s.xml">
+      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 00m 37s.xml">
+      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 03m 55s.xml">
+      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 04m 02s.xml">
+      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 06m 34s.xml">
+      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -533,7 +555,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31174535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31174535" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -545,7 +567,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2996707" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2996707" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,13 +661,13 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java</url>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="42" />
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -660,11 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-617">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,9 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,16 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,16 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,16 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,10 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,10 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="80" column="75" selection-start-line="80" selection-start-column="75" selection-end-line="80" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,13 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -870,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -887,33 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_7_CCI_BuildOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,10 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,11 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315">
           <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,13 +981,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="109" column="38" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1124,6 +1029,70 @@
             <element signature="e#5243#5244#0" expanded="true" />
             <element signature="e#5380#5381#0" expanded="true" />
             <element signature="e#5438#5439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
           </folding>
         </state>
       </provider>
