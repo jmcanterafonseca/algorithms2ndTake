@@ -2,6 +2,7 @@ package Chapter4;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.function.Function;
 
 // Builds a graph from a description of its adjacency matrix
 // 1->2,3,4
@@ -13,28 +14,15 @@ import java.util.Map;
 public class TestGraphBuilder {
 
     public static TestGraph<String> buildStr(String input) {
-        return doBuild(input, new NodeParser() {
-            @Override
-            public Object parse(String val) {
-                return val;
-            }
-        });
+        return doBuild(input, x-> x);
     }
 
     public static TestGraph<Integer> build(String input) {
-        return doBuild(input, new NodeParser() {
-            @Override
-            public Object parse(String val) {
-                return Integer.parseInt(val);
-            }
-        });
+        return doBuild(input, x -> Integer.parseInt(x));
     }
 
-    private interface NodeParser {
-        public Object parse(String val);
-    }
 
-    private static <T> TestGraph<T> doBuild(String input, NodeParser parser) {
+    private static <T> TestGraph<T> doBuild(String input, Function<String, Object> parser) {
         // Ensure that nodes are kept in order in the map
         Map<T, GraphNode<T>> nodes = new LinkedHashMap<>();
 
@@ -43,7 +31,7 @@ public class TestGraphBuilder {
         for (int j = 0; j < lines.length; j++) {
             String[] parts = lines[j].split("->");
 
-            T nodeValue = (T)parser.parse(parts[0]);
+            T nodeValue = (T)parser.apply(parts[0]);
 
             GraphNode<T> parentNode = nodes.get(nodeValue);
 
@@ -57,7 +45,7 @@ public class TestGraphBuilder {
             for (int k = 0; k < children.length; k++) {
                 String[] nodeWeightTuple = children[k].split("\\|");
 
-                T childValue = (T)parser.parse(nodeWeightTuple[0]);
+                T childValue = (T)parser.apply(nodeWeightTuple[0]);
 
                 GraphNode<T> childNode = nodes.get(childValue);
                 if (childNode == null) {
