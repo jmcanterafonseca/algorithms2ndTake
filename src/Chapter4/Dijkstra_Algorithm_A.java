@@ -67,6 +67,7 @@ public class Dijkstra_Algorithm_A {
         return out;
     }
 
+    // Entries stored in the solved nodes and in the priority queue
     private static class Node implements Comparable<Node> {
         public GraphNode<String> node;
         public int distance;
