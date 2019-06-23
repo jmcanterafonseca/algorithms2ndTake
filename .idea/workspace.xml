@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,11 +63,11 @@
       <file leaf-file-name="Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="71" column="35" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="35" />
+            <state relative-caret-position="409">
+              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
               <folding>
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#2612#2613#0" expanded="true" />
+                <element signature="e#2665#2666#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -504,12 +504,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 19m 20s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 21m 36s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 22m 20s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
@@ -534,6 +528,12 @@
     <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 36m 18s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 42m 17s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 44m 39s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1892" height="985" extended-state="0" />
@@ -554,7 +554,7 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -673,12 +673,6 @@
           <line>74</line>
           <properties />
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="46" />
@@ -1096,11 +1090,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="71" column="35" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="35" />
+        <state relative-caret-position="409">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#2665#2666#0" expanded="true" />
           </folding>
         </state>
       </provider>

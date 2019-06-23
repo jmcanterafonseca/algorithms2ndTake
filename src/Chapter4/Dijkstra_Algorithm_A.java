@@ -10,47 +10,41 @@ import java.util.*;
 public class Dijkstra_Algorithm_A {
     public static List<GraphNode<String>> shortestPath(GraphNode<String> start, GraphNode<String> end) {
         // Solved Nodes
-        Map<String, SolvedNode> solvedNodes = new HashMap<>();
+        Map<String, Node> solvedNodes = new HashMap<>();
 
         // Priority queue to extract pending nodes from
-        PriorityQueue<PendingNode> pendingNodes = new PriorityQueue<>();
+        PriorityQueue<Node> pendingNodes = new PriorityQueue<>();
 
         // The start node starts in pending
-        pendingNodes.add(new PendingNode(start, 0));
-
-        GraphNode<String> previousNode = null;
+        pendingNodes.add(new Node(start, 0, null));
 
         while (true) {
-            PendingNode pendingNode = pendingNodes.remove();
+            Node node = pendingNodes.remove();
 
-            SolvedNode solvedNode = new SolvedNode(pendingNode, previousNode);
-
-            int prevDistance = solvedNode.distance;
+            int prevDistance = node.distance;
 
 
-            if (solvedNodes.get(pendingNode.node.value) == null) {
-                solvedNodes.put(solvedNode.node.value, solvedNode);
+            if (solvedNodes.get(node.node.value) == null) {
+                solvedNodes.put(node.node.value, node);
 
-                if (solvedNode.node == end) {
+                if (node.node == end) {
                     break;
                 }
 
                 int childIndex = 0;
-                List<GraphNode<String>> adjacentNodes = solvedNode.node.adjacentNodes;
-                List<Integer> distances = solvedNode.node.adjacentNodesWeight;
+                List<GraphNode<String>> adjacentNodes = node.node.adjacentNodes;
+                List<Integer> distances = node.node.adjacentNodesWeight;
 
                 for (GraphNode<String> childNode : adjacentNodes) {
                     if (solvedNodes.get(childNode.value) == null) {
-                        PendingNode pendingChildNode = new PendingNode(childNode,
-                                distances.get(childIndex) + prevDistance);
+                        Node pendingChildNode = new Node(childNode,
+                                distances.get(childIndex) + prevDistance, node.node);
                         pendingNodes.add(pendingChildNode);
                     }
 
                     childIndex++;
                 }
             }
-
-            previousNode = pendingNode.node;
         }
 
         // Now the solvedNodes Map is processed to obtain the route
@@ -69,29 +63,20 @@ public class Dijkstra_Algorithm_A {
         return out;
     }
 
-    private static class SolvedNode {
+    private static class Node implements Comparable<Node> {
         public GraphNode<String> node;
         public int distance;
         public GraphNode<String> previousNode;
 
-        public SolvedNode(PendingNode pendingNode, GraphNode<String> previousNode) {
-            this.node = pendingNode.node;
-            this.distance = pendingNode.distance;
-            this.previousNode = previousNode;
-        }
-    }
-
-    private static class PendingNode implements Comparable<PendingNode> {
-        public GraphNode<String> node;
-        public int distance;
-
-        public PendingNode(GraphNode<String> node, int distance) {
+        public Node(GraphNode<String> node, int distance, GraphNode<String> previousNode) {
             this.node = node;
             this.distance = distance;
+            this.previousNode = previousNode;
         }
 
-        public int compareTo(PendingNode other) {
+        public int compareTo(Node other) {
             return this.distance - other.distance;
         }
     }
+
 }
