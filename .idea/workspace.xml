@@ -29,47 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_4_10_CCI_Check_Subtree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_4_11_CCI_RandomNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_4_11_CCI_RandomNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestGraph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="-225">
               <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#157#158#0" expanded="true" />
@@ -84,11 +47,49 @@
       <file leaf-file-name="TestGraphBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="441">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="71" column="35" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="35" />
+              <folding>
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_KBest_Select.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,7 +109,7 @@
       <file leaf-file-name="Test_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="285">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter3/Test_3_5_CCI_SortStack.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenGraphNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_2_CCI_Minimal_Height_Tree.java" />
@@ -215,6 +214,8 @@
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" />
       </list>
     </option>
   </component>
@@ -249,13 +250,13 @@
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="Misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
@@ -307,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter4 in algorithms2ndtake">
+  <component name="RunManager" selected="JUnit.Test_Dijkstra_Algorithm_A">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -380,7 +381,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_4_9_CCI_BST_Sequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Dijkstra_Algorithm_A" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
@@ -391,7 +392,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_4_9_CCI_BST_Sequences" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Dijkstra_Algorithm_A" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -465,19 +466,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_4_9_CCI_BST_Sequences" />
       <item itemvalue="JUnit.Test_4_10_CCI_Check_Subtree" />
       <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
       <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_Graph_Path_Finder.test2" />
+      <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
         <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
         <item itemvalue="JUnit.Test_Graph_Path_Finder.test2" />
         <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
         <item itemvalue="JUnit.Test_4_10_CCI_Check_Subtree" />
-        <item itemvalue="JUnit.Test_4_9_CCI_BST_Sequences" />
       </list>
     </recent_temporary>
   </component>
@@ -503,35 +504,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 50m 07s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 19m 20s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.06.16 at 17h 50m 39s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 21m 36s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 14h 11m 27s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 22m 20s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 16h 31m 08s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 24m 25s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 16h 42m 10s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 27m 35s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 00m 37s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 29m 25s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 03m 55s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 30m 20s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 04m 02s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 31m 38s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 06m 34s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 34m 34s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4_in_algorithms2ndtake - 2019.06.22 at 17h 25m 42s.xml">
-      <configuration name="Chapter4 in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 36m 18s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -674,37 +675,16 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java</url>
-          <line>57</line>
+          <url>file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java</url>
+          <line>61</line>
           <properties />
-          <option name="timeStamp" value="43" />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="46" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter2/Test_2_6_CCI_Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_3_CCI_Stack_Of_Plates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-617">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_3_CCI_Stack_Of_Plates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
@@ -980,8 +960,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="684">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,10 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,7 +1022,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="285">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1073,23 +1052,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="441">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="-225">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#157#158#0" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="35" />
+          <folding>
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
           </folding>
         </state>
       </provider>
