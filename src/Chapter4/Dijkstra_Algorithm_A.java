@@ -9,43 +9,47 @@ import java.util.*;
 // the destination Node
 public class Dijkstra_Algorithm_A {
     public static List<GraphNode<String>> shortestPath(GraphNode<String> start, GraphNode<String> end) {
+        if (start == null || end == null) {
+            throw new RuntimeException("start nor end cannot be null");
+        }
+
         // Solved Nodes
         Map<String, Node> solvedNodes = new HashMap<>();
 
         // Priority queue to extract pending nodes from
         PriorityQueue<Node> pendingNodes = new PriorityQueue<>();
 
-        // The start node starts in pending
-        pendingNodes.add(new Node(start, 0, null));
+        Node processedNode = new Node(start, 0, null);
 
-        while (true) {
-            Node node = pendingNodes.remove();
+        while (processedNode != null && processedNode.node != end) {
+            if (solvedNodes.get(processedNode.node.value) == null) {
+                solvedNodes.put(processedNode.node.value, processedNode);
 
-            int prevDistance = node.distance;
-
-
-            if (solvedNodes.get(node.node.value) == null) {
-                solvedNodes.put(node.node.value, node);
-
-                if (node.node == end) {
-                    break;
-                }
-
+                int prevDistance = processedNode.distance;
                 int childIndex = 0;
-                List<GraphNode<String>> adjacentNodes = node.node.adjacentNodes;
-                List<Integer> distances = node.node.adjacentNodesWeight;
+                List<GraphNode<String>> adjacentNodes = processedNode.node.adjacentNodes;
+                List<Integer> distances = processedNode.node.adjacentNodesWeight;
 
                 for (GraphNode<String> childNode : adjacentNodes) {
                     if (solvedNodes.get(childNode.value) == null) {
-                        Node pendingChildNode = new Node(childNode,
-                                distances.get(childIndex) + prevDistance, node.node);
+                        int childDistance = distances.get(childIndex) + prevDistance;
+
+                        Node pendingChildNode = new Node(childNode, childDistance, processedNode.node);
                         pendingNodes.add(pendingChildNode);
                     }
 
                     childIndex++;
                 }
             }
+
+            processedNode = pendingNodes.poll();
         }
+
+        if (processedNode == null) {
+            return Collections.emptyList();
+        }
+
+        solvedNodes.put(processedNode.node.value, processedNode);
 
         // Now the solvedNodes Map is processed to obtain the route
         GraphNode<String> routeNode = end;

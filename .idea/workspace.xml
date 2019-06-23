@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,8 +64,8 @@
       <file leaf-file-name="Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="142">
+              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding>
                 <element signature="e#2612#2613#0" expanded="true" />
                 <element signature="e#2665#2666#0" expanded="true" />
@@ -76,8 +77,8 @@
       <file leaf-file-name="Test_Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="466">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -504,24 +505,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 22m 20s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 24m 25s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 27m 35s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 29m 25s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 30m 20s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 31m 38s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 34m 34s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
@@ -532,6 +515,24 @@
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 14h 44m 39s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 16h 22m 38s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 16h 29m 46s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 16h 40m 44s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 16h 41m 30s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 16h 46m 05s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 16h 49m 53s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1080,8 +1081,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="466">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1090,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="142">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="e#2612#2613#0" expanded="true" />
             <element signature="e#2665#2666#0" expanded="true" />
