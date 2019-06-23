@@ -10,7 +10,7 @@ import java.util.*;
 public class Dijkstra_Algorithm_A {
     public static List<GraphNode<String>> shortestPath(GraphNode<String> start, GraphNode<String> end) {
         if (start == null || end == null) {
-            throw new RuntimeException("start nor end cannot be null");
+            throw new RuntimeException("start or end cannot be null");
         }
 
         // Solved Nodes
