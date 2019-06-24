@@ -3,53 +3,66 @@ package Chapter4;
 import java.util.*;
 
 // Implements the Dijkstra Algorithm to find the path with less cost
-// between a start Node and a destination Node in a Graph
-// Node Weights are always positive
+// between a start Vertex and a destination Vertex in a Graph
+// Vertex Weights are always positive
 // Idea is to calculate less cost path from the starting node to the rest of nodes, including
-// the destination Node
+// the destination Vertex
 public class Dijkstra_Algorithm_A {
     public static List<GraphNode<String>> shortestPath(GraphNode<String> start, GraphNode<String> end) {
         if (start == null || end == null) {
             throw new RuntimeException("start or end cannot be null");
         }
 
-        // Solved Nodes
-        Map<String, Node> solvedNodes = new HashMap<>();
+        // Solved Vertices
+        Map<String, Vertex> solvedVertices = new HashMap<>();
+        // Pending Vertices
+        Map<String, Vertex> pendingVertices = new HashMap<>();
 
         // Priority queue to extract pending nodes from
-        PriorityQueue<Node> pendingNodes = new PriorityQueue<>();
+        PriorityQueue<Vertex> pendingVertexQueue = new PriorityQueue<>();
 
-        Node processedNode = new Node(start, 0, null);
+        Vertex processedVertex = new Vertex(start, 0, null);
 
-        while (processedNode != null && processedNode.node != end) {
-            if (solvedNodes.get(processedNode.node.value) == null) {
-                solvedNodes.put(processedNode.node.value, processedNode);
+        while (processedVertex != null && processedVertex.node != end) {
+            if (solvedVertices.get(processedVertex.node.value) == null) {
+                solvedVertices.put(processedVertex.node.value, processedVertex);
+                pendingVertices.remove(processedVertex.node.value);
 
-                int prevDistance = processedNode.distance;
+                int prevDistance = processedVertex.distance;
                 int childIndex = 0;
-                List<GraphNode<String>> adjacentNodes = processedNode.node.adjacentNodes;
-                List<Integer> distances = processedNode.node.adjacentNodesWeight;
+                List<GraphNode<String>> adjacentNodes = processedVertex.node.adjacentNodes;
+                List<Integer> distances = processedVertex.node.adjacentNodesWeight;
 
                 for (GraphNode<String> childNode : adjacentNodes) {
-                    if (solvedNodes.get(childNode.value) == null) {
+                    if (solvedVertices.get(childNode.value) == null) {
                         int childDistance = distances.get(childIndex) + prevDistance;
 
-                        Node pendingChildNode = new Node(childNode, childDistance, processedNode.node);
-                        pendingNodes.add(pendingChildNode);
+                        Vertex pendingChildVertex = pendingVertices.get(childNode.value);
+                        if (pendingChildVertex == null) {
+                            pendingChildVertex = new Vertex(childNode, childDistance, processedVertex.node);
+
+                            pendingVertices.put(pendingChildVertex.node.value, pendingChildVertex);
+                            pendingVertexQueue.add(pendingChildVertex);
+                        } else {
+                            if (pendingChildVertex.distance > childDistance) {
+                                pendingChildVertex.distance = childDistance;
+                                pendingChildVertex.previousNode = processedVertex.node;
+                            }
+                        }
                     }
 
                     childIndex++;
                 }
             }
 
-            processedNode = pendingNodes.poll();
+            processedVertex = pendingVertexQueue.poll();
         }
 
-        if (processedNode == null) {
+        if (processedVertex == null) {
             return Collections.emptyList();
         }
 
-        solvedNodes.put(processedNode.node.value, processedNode);
+        solvedVertices.put(processedVertex.node.value, processedVertex);
 
         // Now the solvedNodes Map is processed to obtain the route
         GraphNode<String> routeNode = end;
@@ -58,7 +71,7 @@ public class Dijkstra_Algorithm_A {
 
         while (routeNode != null) {
             stack.addFirst(routeNode);
-            routeNode = solvedNodes.get(routeNode.value).previousNode;
+            routeNode = solvedVertices.get(routeNode.value).previousNode;
         }
 
         List<GraphNode<String>> out = new ArrayList<>();
@@ -68,18 +81,18 @@ public class Dijkstra_Algorithm_A {
     }
 
     // Entries stored in the solved nodes and in the priority queue
-    private static class Node implements Comparable<Node> {
+    private static class Vertex implements Comparable<Vertex> {
         public GraphNode<String> node;
         public int distance;
         public GraphNode<String> previousNode;
 
-        public Node(GraphNode<String> node, int distance, GraphNode<String> previousNode) {
+        public Vertex(GraphNode<String> node, int distance, GraphNode<String> previousNode) {
             this.node = node;
             this.distance = distance;
             this.previousNode = previousNode;
         }
 
-        public int compareTo(Node other) {
+        public int compareTo(Vertex other) {
             return this.distance - other.distance;
         }
     }

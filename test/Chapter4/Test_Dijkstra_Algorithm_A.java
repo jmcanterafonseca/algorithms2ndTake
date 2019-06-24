@@ -2,6 +2,7 @@ package Chapter4;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -101,5 +102,16 @@ public class Test_Dijkstra_Algorithm_A {
                 testGraph.nodes.get("a"), new GraphNode<>("z"));
 
         assertEquals(0, result.size());
+    }
+
+    @Test
+    void test8() {
+        TestGraph<String> testGraph = TestGraphBuilder.buildStr(graphStr);
+
+
+        List<GraphNode<String>> result = Dijkstra_Algorithm_A.shortestPath(
+                testGraph.nodes.get("a"), testGraph.nodes.get("a"));
+
+        assertArrayEquals(new String[]{"a"}, result2Array(result));
     }
 }
