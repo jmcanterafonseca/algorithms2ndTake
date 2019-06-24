@@ -33,17 +33,35 @@
       <file leaf-file-name="Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="511">
               <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="110" column="63" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -117,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenNodes.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Tes_4_1_CCI_Route_BetweenGraphNodes.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_2_CCI_Minimal_Height_Tree.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_List_Of_Depths.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_3_CCI_List_Of_Depths.java" />
@@ -166,8 +182,10 @@
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" />
       </list>
     </option>
   </component>
@@ -260,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_Dijkstra_Algorithm_A">
+  <component name="RunManager" selected="JUnit.Chapter4 in algorithms2ndtake">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -287,7 +305,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_4_10_CCI_Check_Subtree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Bellman_Ford_Algorithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
@@ -298,7 +316,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_4_10_CCI_Check_Subtree" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Bellman_Ford_Algorithm" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -310,7 +328,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_4_11_CCI_RandomNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Bellman_Ford_Algorithm.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
@@ -321,9 +339,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_4_11_CCI_RandomNode" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Bellman_Ford_Algorithm" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -418,19 +436,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_4_10_CCI_Check_Subtree" />
-      <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
       <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_Graph_Path_Finder.test2" />
       <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
+      <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm" />
+      <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm.test5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
         <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
+        <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm" />
+        <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm.test5" />
+        <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
         <item itemvalue="JUnit.Test_Graph_Path_Finder.test2" />
-        <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
-        <item itemvalue="JUnit.Test_4_10_CCI_Check_Subtree" />
       </list>
     </recent_temporary>
   </component>
@@ -456,39 +474,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 16h 59m 53s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 17h 01m 18s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 17h 02m 58s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 17h 06m 29s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 17h 06m 58s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.23 at 17h 08m 42s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.24 at 21h 25m 02s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.24 at 21h 35m 34s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.24 at 21h 40m 05s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.24 at 21h 41m 41s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.24 at 21h 44m 53s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 24m 12s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm_test5 - 2019.06.24 at 23h 50m 39s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 50m 56s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm_test5 - 2019.06.24 at 23h 51m 26s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 53m 22s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 57m 51s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 59m 12s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.25 at 00h 00m 22s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1892" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -505,7 +524,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2996707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29903537" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
@@ -603,25 +622,17 @@
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="47" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter3/Test_3_4_CCI_Two_Stack_Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_4_CCI_Two_Stack_Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter3/Solution_3_5_CCI_SortStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -801,17 +812,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="110" column="63" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
         </state>
       </provider>
     </entry>
