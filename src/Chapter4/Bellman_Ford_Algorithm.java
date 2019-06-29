@@ -9,6 +9,7 @@ import java.util.*;
 // Bellman Ford algorithm has more cost in computational terms but on the other hand is capable of
 // dealing with negative edges
 // Time complexity of Bellman-Ford is O(VE), being V the number of Vertices and E the number of Edges
+// A negative cycle is a graph cycle which sum is negative
 public class Bellman_Ford_Algorithm {
     public static List<GraphNode<String>> shortestPath(GraphNode<String> start, GraphNode<String> end) {
         if (start == null || end == null) {

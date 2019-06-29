@@ -4,9 +4,10 @@ import java.util.*;
 
 // Implements the Dijkstra Algorithm to find the path with less cost
 // between a start Vertex and a destination Vertex in a Graph
-// Edge Weights are always positive
+// Edge Weights are always positive, otherwise it does not work
 // Idea is to calculate less cost path from the starting Vertex to the rest of Vertices, including
 // the destination Vertex
+// The time complexity of Dijkstra Algorithm is O(V LOG V)
 public class Dijkstra_Algorithm_A {
     public static List<GraphNode<String>> shortestPath(GraphNode<String> start, GraphNode<String> end) {
         if (start == null || end == null) {

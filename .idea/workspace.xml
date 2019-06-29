@@ -4,8 +4,6 @@
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+            <state relative-caret-position="361">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -35,8 +33,8 @@
       <file leaf-file-name="Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="171">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -121,15 +119,15 @@
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="349" />
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1892" />
     <option name="height" value="984" />
@@ -445,7 +443,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="349" y="23" width="1892" height="984" extended-state="0" />
+    <frame x="-1" y="23" width="1892" height="984" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -562,7 +560,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java</url>
-          <line>40</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
@@ -749,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -777,10 +768,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state relative-caret-position="171">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
         </state>
       </provider>
     </entry>
