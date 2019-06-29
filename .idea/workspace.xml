@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,44 +17,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algorithms2ndtake$Test_1_5_CCI_One_Away.ic" NAME="Test_1_5_CCI_One_Away Coverage Results" MODIFIED="1552853230361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/algorithms2ndtake$Test_1_6_CCI_StringCompression.ic" NAME="Test_1_6_CCI_StringCompression Coverage Results" MODIFIED="1555171895999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/algorithms2ndtake$All_in_algorithms2ndtake.ic" NAME="All in algorithms2ndtake Coverage Results" MODIFIED="1555843457397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/algorithms2ndtake$Test_1_5_CCI_One_Away.ic" NAME="Test_1_5_CCI_One_Away Coverage Results" MODIFIED="1552853230361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            <state relative-caret-position="283">
+              <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -60,62 +44,17 @@
       <file leaf-file-name="Test_Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="110" column="63" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
+            <state relative-caret-position="-197">
+              <caret line="137" column="53" selection-start-line="137" selection-start-column="53" selection-end-line="137" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestGraphBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
+      <file leaf-file-name="Test_Dijkstra_Algorithm_A.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_KBest_Select.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="229" selection-start-line="229" selection-end-line="229" />
+            <state relative-caret-position="392">
+              <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -182,18 +121,18 @@
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphNode.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="4" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="349" />
     <option name="y" value="23" />
     <option name="width" value="1892" />
-    <option name="height" value="985" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -243,8 +182,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter4 in algorithms2ndtake">
+  <component name="RunManager" selected="JUnit.Test_Dijkstra_Algorithm_A">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -444,10 +383,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
-        <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm" />
-        <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm.test5" />
         <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
+        <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm" />
+        <item itemvalue="JUnit.Chapter4 in algorithms2ndtake" />
+        <item itemvalue="JUnit.Test_Bellman_Ford_Algorithm.test5" />
         <item itemvalue="JUnit.Test_Graph_Path_Finder.test2" />
       </list>
     </recent_temporary>
@@ -474,68 +413,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.24 at 21h 41m 41s.xml">
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.29 at 10h 59m 53s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.29 at 11h 01m 08s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.24 at 21h 44m 53s.xml">
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.29 at 11h 06m 34s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.29 at 12h 20m 20s.xml">
+      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.29 at 12h 34m 02s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 24m 12s.xml">
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.29 at 12h 36m 12s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.29 at 12h 43m 41s.xml">
       <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm_test5 - 2019.06.24 at 23h 50m 39s.xml">
-      <configuration name="Test_Bellman_Ford_Algorithm.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 50m 56s.xml">
+    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.29 at 12h 43m 59s.xml">
       <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm_test5 - 2019.06.24 at 23h 51m 26s.xml">
-      <configuration name="Test_Bellman_Ford_Algorithm.test5" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.29 at 12h 46m 13s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 53m 22s.xml">
-      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 57m 51s.xml">
-      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.24 at 23h 59m 12s.xml">
-      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Bellman_Ford_Algorithm - 2019.06.25 at 00h 00m 22s.xml">
-      <configuration name="Test_Bellman_Ford_Algorithm" configurationId="JUnit" />
+    <history-entry file="Test_Dijkstra_Algorithm_A - 2019.06.29 at 12h 47m 40s.xml">
+      <configuration name="Test_Dijkstra_Algorithm_A" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1892" height="985" extended-state="0" />
-    <editor active="true" />
+    <frame x="349" y="23" width="1892" height="984" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32821077" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3108253" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35054946" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463002" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29903537" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -700,7 +638,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_7_CCI_BuildOrder.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/CircularDependencyDetected.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphPathFinder.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_BuildOrder.java" />
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" />
@@ -761,7 +698,7 @@
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" />
     <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
+        <state relative-caret-position="4085">
           <caret line="229" selection-start-line="229" selection-end-line="229" />
         </state>
       </provider>
@@ -769,18 +706,8 @@
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java" />
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="285">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,18 +717,11 @@
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" />
     <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="506">
           <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -812,31 +732,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="110" column="63" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
+        <state relative-caret-position="19">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state relative-caret-position="283">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="137" column="53" selection-start-line="137" selection-start-column="53" selection-end-line="137" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>

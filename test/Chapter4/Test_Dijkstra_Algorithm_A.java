@@ -2,7 +2,6 @@ package Chapter4;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -113,5 +112,22 @@ public class Test_Dijkstra_Algorithm_A {
                 testGraph.nodes.get("a"), testGraph.nodes.get("a"));
 
         assertArrayEquals(new String[]{"a"}, result2Array(result));
+    }
+
+    // This test demonstrates why the Djkstra algorithm fails with
+    // Negative edges. The shortest path is {"a", "e", "d"} and the algorithm
+    // reports {"a", "b", "c", "d" }
+    // The same test using the Bellman-Ford algorithm works perfectly
+    @Test
+    void test9() {
+        String graphTest = "a->b|2,e|8\nb->c|1\nc->d|2\ne->d|-4";
+
+        TestGraph<String> testGraph = TestGraphBuilder.buildStr(graphTest);
+
+
+        List<GraphNode<String>> result = Dijkstra_Algorithm_A.shortestPath(
+                testGraph.nodes.get("a"), testGraph.nodes.get("d"));
+
+        assertArrayEquals(new String[]{"a", "b", "c", "d"}, result2Array(result));
     }
 }

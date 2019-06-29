@@ -56,6 +56,24 @@ public class Bellman_Ford_Algorithm {
             processedVertex = pendingVertexQueue.poll();
         }
 
+        // Last Step to check if there are negative cycles
+        Iterator<Vertex> it = vertices.values().iterator();
+        while (it.hasNext()) {
+            Vertex v = it.next();
+
+            List<Integer> distances = v.node.adjacentNodesWeight;
+            int childIndex = 0;
+
+            for (GraphNode child : v.node.adjacentNodes) {
+                Vertex childVertex = vertices.get(child.value);
+                if (v.distance + distances.get(childIndex) < childVertex.distance) {
+                    throw new RuntimeException("negative-cycle");
+                }
+
+                childIndex++;
+            }
+        }
+
         if (vertices.get(end.value) == null) {
             return Collections.emptyList();
         }

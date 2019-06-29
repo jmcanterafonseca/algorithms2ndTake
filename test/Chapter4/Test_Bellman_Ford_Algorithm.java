@@ -4,8 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class Test_Bellman_Ford_Algorithm {
@@ -112,5 +111,59 @@ public class Test_Bellman_Ford_Algorithm {
                 testGraph.nodes.get("a"), testGraph.nodes.get("a"));
 
         assertArrayEquals(new String[]{"a"}, result2Array(result));
+    }
+
+
+    @Test
+    void test9() {
+        // There is a negative cycle that is detected
+        String graphTest = "a->b|1\nb->c|-1\nc->d|-1\nd->a|-1";
+
+        TestGraph<String> testGraph = TestGraphBuilder.buildStr(graphTest);
+
+
+        try {
+            List<GraphNode<String>> result = Bellman_Ford_Algorithm.shortestPath(
+                    testGraph.nodes.get("a"), testGraph.nodes.get("c"));
+        } catch (RuntimeException rte) {
+            assertEquals("negative-cycle", rte.getMessage());
+            return;
+        }
+
+        assertTrue(false);
+    }
+
+    @Test
+    void test10() {
+        // There is a negative cycle that is detected
+        String graphTest = "a->b|1\nb->c|2\nc->b|-3";
+
+        TestGraph<String> testGraph = TestGraphBuilder.buildStr(graphTest);
+
+        try {
+
+            List<GraphNode<String>> result = Bellman_Ford_Algorithm.shortestPath(
+                    testGraph.nodes.get("a"), testGraph.nodes.get("c"));
+        } catch (RuntimeException rte) {
+            assertEquals("negative-cycle", rte.getMessage());
+            return;
+        }
+
+        assertTrue(false);
+    }
+
+    // This test using the Bellman-Ford algorithm works
+    // However it does not work when using the Dijkstra Algorithm
+    @Test
+    void test11() {
+        String graphTest = "a->b|2,e|8\nb->c|1\nc->d|2\ne->d|-4";
+
+        TestGraph<String> testGraph = TestGraphBuilder.buildStr(graphTest);
+
+
+        List<GraphNode<String>> result = Bellman_Ford_Algorithm.shortestPath(
+                testGraph.nodes.get("a"), testGraph.nodes.get("d"));
+
+        assertArrayEquals(new String[]{"a", "e", "d"}, result2Array(result));
     }
 }

@@ -15,7 +15,8 @@ public class Dijkstra_Algorithm_A {
 
         // Solved Vertices
         Map<String, Vertex> solvedVertices = new HashMap<>();
-        // Pending Vertices
+        // Pending Vertices used to have O(1) access to pending vertices which are
+        // on the priority queue
         Map<String, Vertex> pendingVertices = new HashMap<>();
 
         // Priority queue to extract pending nodes from
