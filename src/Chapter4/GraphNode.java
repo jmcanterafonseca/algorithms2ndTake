@@ -3,6 +3,9 @@ package Chapter4;
 import java.util.ArrayList;
 import java.util.List;
 
+// Here the GraphNode holds a list of adjacent nodes
+// And a list of weights for the path between the GraphNode and its adjacent nodes
+// The size of the adjacentNodes list and the adjacenNodesWeight list has to be the same
 public class GraphNode<T> {
     public T value;
     public List<GraphNode<T>> adjacentNodes;
