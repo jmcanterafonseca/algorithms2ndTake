@@ -1,8 +1,6 @@
 package Chapter4;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 // Floyd Warshall algorithm
 // This version takes as input a double hash that holds the distance matrix
@@ -16,7 +14,7 @@ public class Floyd_Warshall_Algorithm_Ext {
     public static Map<String, Map<String, VertexDistancePair>> shortestPathPairs(GraphAsMatrix<String> graph) {
         Map<String, Map<String, VertexDistancePair>> out = new HashMap<>();
 
-        Collection<GraphVertex<String>> vertices = graph.vertices;
+        Collection<GraphVertex<String>> vertices = graph.vertices.values();
 
         // Distances Map is cloned so we left untouched the original one
         Map<String, Map<String, Integer>> distances = (Map<String, Map<String, Integer>>)
@@ -26,6 +24,7 @@ public class Floyd_Warshall_Algorithm_Ext {
         for (GraphVertex<String> gv : vertices) {
             Map<String, VertexDistancePair> vdistanceMap = new HashMap<>();
             out.put(gv.label, vdistanceMap);
+            
             Collection<String> adjacents = distances.get(gv.label).keySet();
             for (String adjacent : adjacents) {
                 vdistanceMap.put(adjacent, new VertexDistancePair(distances.get(gv.label).get(adjacent),
@@ -45,6 +44,41 @@ public class Floyd_Warshall_Algorithm_Ext {
                     }
                 }
             }
+        }
+
+        return out;
+    }
+
+    // Here we are calculating the shortest distance pairs for each call to this method
+    // ideally we should only do this one time as we are calculating every possible combination
+    public static List<String> shortestPath(GraphVertex<String> start, GraphVertex<String> end,
+                                            GraphAsMatrix<String> graph) {
+
+        // First all the shortest path pairs are calculated
+        Map<String, Map<String, VertexDistancePair>> shortestPairs = shortestPathPairs(graph);
+
+        // Now it is as easy as
+        VertexDistancePair vpair = shortestPairs.get(start.label).get(end.label);
+        if (vpair == null) {
+            return Collections.emptyList();
+        }
+
+        List<String> out = new ArrayList<>();
+        out.add(start.label);
+
+        GraphVertex<String> currentVertex = vpair.previousVertex;
+
+        while(currentVertex != null && !currentVertex.label.equals(end.label)) {
+            out.add(currentVertex.label);
+            currentVertex = shortestPairs.get(currentVertex.label).get(end.label).previousVertex;
+        }
+
+        // There is no path between the nodes
+        if (currentVertex != null && !currentVertex.label.equals(end.label)) {
+            return Collections.emptyList();
+        }
+        else {
+            out.add(end.label);
         }
 
         return out;
