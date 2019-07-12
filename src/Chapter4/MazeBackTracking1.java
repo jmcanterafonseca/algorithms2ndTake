@@ -24,7 +24,6 @@ public class MazeBackTracking1 {
         if (canMove(start.x, start.y, maze)) {
             solution[start.x][start.y] = 1;
 
-
             foundPath = move(new Point(start.x + 1, start.y), end, maze, solution);
 
             if (!foundPath) {
@@ -42,10 +41,14 @@ public class MazeBackTracking1 {
 
     // Returns true if the rat can move from position x to position y
     private static boolean canMove(int x, int y, int[][] maze) {
-        return maze[x][y] == 1;
+        if (x < maze.length && y < maze.length) {
+            return maze[x][y] == 1;
+        }
+
+        return false;
     }
 
-    private static class Point {
+    public static class Point {
         public int x;
         public int y;
 

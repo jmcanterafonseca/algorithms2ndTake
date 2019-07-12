@@ -2,7 +2,7 @@ package Chapter4;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -51,7 +51,6 @@ public class Test_Floyd_Warshall_Algorithm_Ext {
         List<String> result = Floyd_Warshall_Algorithm_Ext.shortestPath(
                 testGraph.vertices.get("g"), testGraph.vertices.get("h"), testGraph);
 
-        System.out.println(Arrays.toString(result.toArray(new String[0])));
         assertArrayEquals(new String[]{"g", "c", "d", "h"}, result.toArray(new String[0]));
     }
 
@@ -71,8 +70,6 @@ public class Test_Floyd_Warshall_Algorithm_Ext {
 
         List<String> result = Floyd_Warshall_Algorithm_Ext.shortestPath(
                 testGraph.vertices.get("a"), testGraph.vertices.get("i"), testGraph);
-
-        System.out.println(Arrays.toString(result.toArray(new String[0])));
 
         assertArrayEquals(new String[]{"a", "c", "d", "g", "i"}, result.toArray(new String[0]));
     }
@@ -110,6 +107,6 @@ public class Test_Floyd_Warshall_Algorithm_Ext {
         List<String> result = Floyd_Warshall_Algorithm_Ext.shortestPath(
                 testGraph.vertices.get("a"), testGraph.vertices.get("d"), testGraph);
 
-        assertArrayEquals(new String[]{"a", "b", "c", "d"}, result.toArray(new String[0]));
+        assertArrayEquals(new String[]{"a", "e", "d"}, result.toArray(new String[0]));
     }
 }

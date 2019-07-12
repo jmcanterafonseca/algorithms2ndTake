@@ -61,23 +61,21 @@ public class Floyd_Warshall_Algorithm_Ext {
             return Collections.emptyList();
         }
 
+        Deque<String> stack = new ArrayDeque<>();
+
+        GraphVertex<String> currentVertex = end;
+
+        while (currentVertex != null) {
+            stack.push(currentVertex.label);
+            currentVertex = shortestPairs.get(start.label).get(currentVertex.label).previousVertex;
+        }
+
+        if (start != end) {
+            stack.push(start.label);
+        }
+
         List<String> out = new ArrayList<>();
-        out.add(start.label);
-
-        GraphVertex<String> currentVertex = vpair.previousVertex;
-
-        while(currentVertex != null && !currentVertex.label.equals(end.label)) {
-            out.add(currentVertex.label);
-            currentVertex = shortestPairs.get(currentVertex.label).get(end.label).previousVertex;
-        }
-
-        // There is no path between the nodes
-        if (currentVertex != null && !currentVertex.label.equals(end.label)) {
-            return Collections.emptyList();
-        }
-        else {
-            out.add(end.label);
-        }
+        out.addAll(stack);
 
         return out;
     }
