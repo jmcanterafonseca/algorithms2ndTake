@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,8 +90,8 @@
       <file leaf-file-name="A_Star_BinaryMaze.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="223">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2288#2289#0" expanded="true" />
@@ -480,9 +478,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 20m 16s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 21m 32s.xml">
       <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
     </history-entry>
@@ -510,10 +505,12 @@
     <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 31m 06s.xml">
       <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 40m 12s.xml">
+      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1892" height="984" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -524,11 +521,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35054946" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35054946" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.15856236" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -932,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="223">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2288#2289#0" expanded="true" />

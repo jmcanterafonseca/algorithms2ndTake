@@ -30,11 +30,11 @@ public class A_Star_BinaryMaze {
     }
 
     // Calculates the solution with A* algorithm using h1 heuristic
-    public static NodeInfo[][] move(Point start, Point end, int[][] maze) {
+    private static NodeInfo[][] move(Point start, Point end, int[][] maze) {
         // The priority queue will allow us to process the nodes properly
         PriorityQueue<NodeInfo> pendingNodes = new PriorityQueue<>(Collections.reverseOrder());
 
-        NodeInfo startNode = new NodeInfo(start, null, 0, h1(start,end));
+        NodeInfo startNode = new NodeInfo(start, null, 0, h1(start, end));
 
         pendingNodes.add(startNode);
 
@@ -125,7 +125,7 @@ public class A_Star_BinaryMaze {
     private static boolean canMove(int x, int y, int[][] maze) {
         boolean out = false;
 
-        if (x>= 0 && x < maze.length && y>=0 && y < maze.length) {
+        if (x >= 0 && x < maze.length && y >= 0 && y < maze.length) {
             out = (maze[x][y] == 1);
         }
 
@@ -150,7 +150,7 @@ public class A_Star_BinaryMaze {
     // This heuristic uses the Euclidean distance
     // See https://www.geeksforgeeks.org/a-search-algorithm/
     private static float h3(Point current, Point goal) {
-        return (float)Math.sqrt(Math.pow(current.x - goal.x, 2) + Math.pow(current.y - goal.y, 2));
+        return (float) Math.sqrt(Math.pow(current.x - goal.x, 2) + Math.pow(current.y - goal.y, 2));
     }
 
     private static class NodeInfo implements Comparable<NodeInfo> {
@@ -172,7 +172,7 @@ public class A_Star_BinaryMaze {
         }
 
         public int compareTo(NodeInfo other) {
-            return (int)(this.f - other.f);
+            return (int) (this.f - other.f);
         }
     }
 }
