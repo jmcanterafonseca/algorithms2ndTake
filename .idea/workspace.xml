@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm_Ext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm_Ext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -507,7 +501,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1892" height="984" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />

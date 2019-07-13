@@ -24,7 +24,7 @@ public class Floyd_Warshall_Algorithm_Ext {
             Collection<String> adjacents = graph.distances.get(gv.label).keySet();
             for (String adjacent : adjacents) {
                 vdistanceMap.put(adjacent, new VertexDistancePair(graph.distances.get(gv.label).get(adjacent),
-                        null));
+                        gv));
             }
 
             vdistanceMap.put(gv.label, new VertexDistancePair(0, null));
@@ -68,10 +68,6 @@ public class Floyd_Warshall_Algorithm_Ext {
         while (currentVertex != null) {
             stack.push(currentVertex.label);
             currentVertex = shortestPairs.get(start.label).get(currentVertex.label).previousVertex;
-        }
-
-        if (start != end) {
-            stack.push(start.label);
         }
 
         List<String> out = new ArrayList<>();
