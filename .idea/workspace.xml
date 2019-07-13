@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,19 +30,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Floyd_Warshall_Algorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Floyd_Warshall_Algorithm_Ext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm_Ext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="460">
               <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
             </state>
           </provider>
@@ -68,8 +60,8 @@
       <file leaf-file-name="Test_MazeBackTracking1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="918">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +72,8 @@
       <file leaf-file-name="MazeBackTracking1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="358">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -95,23 +87,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_Graph_Path_Finder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java">
+      <file leaf-file-name="GraphAsMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphAsMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphAsMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphAsMatrix.java">
+      <file leaf-file-name="GraphAsVertexEdge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphAsVertexEdge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphEdge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphEdge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -178,9 +179,9 @@
         <option value="$PROJECT_DIR$/src/Chapter4/GraphNode.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphAsMatrix.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm_Ext.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" />
       </list>
     </option>
@@ -470,15 +471,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Floyd_Warshall_Algorithm_Ext - 2019.07.12 at 21h 12m 01s.xml">
-      <configuration name="Test_Floyd_Warshall_Algorithm_Ext" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Floyd_Warshall_Algorithm_Ext - 2019.07.12 at 21h 15m 09s.xml">
-      <configuration name="Test_Floyd_Warshall_Algorithm_Ext" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Floyd_Warshall_Algorithm_Ext - 2019.07.12 at 21h 21m 18s.xml">
-      <configuration name="Test_Floyd_Warshall_Algorithm_Ext" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_Floyd_Warshall_Algorithm_Ext - 2019.07.12 at 21h 24m 00s.xml">
       <configuration name="Test_Floyd_Warshall_Algorithm_Ext" configurationId="JUnit" />
     </history-entry>
@@ -499,6 +491,15 @@
     </history-entry>
     <history-entry file="Test_Floyd_Warshall_Algorithm_Ext - 2019.07.13 at 10h 07m 40s.xml">
       <configuration name="Test_Floyd_Warshall_Algorithm_Ext" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_MazeBackTracking1 - 2019.07.13 at 10h 10m 53s.xml">
+      <configuration name="Test_MazeBackTracking1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_MazeBackTracking1 - 2019.07.13 at 10h 12m 52s.xml">
+      <configuration name="Test_MazeBackTracking1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_MazeBackTracking1 - 2019.07.13 at 10h 29m 17s.xml">
+      <configuration name="Test_MazeBackTracking1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -757,20 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphAsVertexEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -842,16 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -873,16 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphAsMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -892,15 +859,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm_Ext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="460">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphAsMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphAsVertexEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="358">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

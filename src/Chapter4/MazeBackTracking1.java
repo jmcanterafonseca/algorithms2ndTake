@@ -5,6 +5,7 @@ package Chapter4;
 // in which recursively we are trying to find a path from start to end
 // The path found is not necessarily the shortest path
 // To find the shortest path we would need to use a A* algorithm
+// Returns null if no path exist between start point and end point
 public class MazeBackTracking1 {
     public static int[][] solution(Point start, Point end, int[][] maze) {
         int[][] out = new int[maze.length][maze.length];
@@ -18,15 +19,14 @@ public class MazeBackTracking1 {
     }
 
     private static boolean move(Point start, Point end, int[][] maze, int[][] solution) {
-        if (start.x == end.x && start.y == end.y) {
-            solution[start.x][start.y] = 1;
-            return true;
-        }
-
         boolean foundPath = false;
 
         if (canMove(start.x, start.y, maze)) {
             solution[start.x][start.y] = 1;
+
+            if (start.x == end.x && start.y == end.y) {
+                return true;
+            }
 
             foundPath = move(new Point(start.x + 1, start.y), end, maze, solution);
 
@@ -48,7 +48,7 @@ public class MazeBackTracking1 {
         boolean out = false;
 
         if (x < maze.length && y < maze.length) {
-            out = maze[x][y] == 1;
+            out = (maze[x][y] == 1);
         }
 
         return out;
