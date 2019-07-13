@@ -8,8 +8,7 @@ import java.util.*;
 // Idea is to calculate less cost path from the starting Vertex to the rest of Vertices, including
 // the destination Vertex
 // The time complexity of Dijkstra Algorithm is O(V LOG V)
-// This version has been superseded by v2 which does the same with less lines of code
-public class Dijkstra_Algorithm_A {
+public class Dijkstra_Algorithm_A_v2 {
     public static List<GraphNode<String>> shortestPath(GraphNode<String> start, GraphNode<String> end) {
         if (start == null || end == null) {
             throw new RuntimeException("start or end cannot be null");
@@ -19,53 +18,54 @@ public class Dijkstra_Algorithm_A {
         Map<String, Vertex> solvedVertices = new HashMap<>();
         // Pending Vertices used to have O(1) access to pending vertices which are
         // on the priority queue
-        Map<String, Vertex> pendingVertices = new HashMap<>();
+        Map<String, Vertex> vertices = new HashMap<>();
 
         // Priority queue to extract pending nodes from
         PriorityQueue<Vertex> pendingVertexQueue = new PriorityQueue<>();
 
         Vertex processedVertex = new Vertex(start, 0, null);
+        pendingVertexQueue.add(processedVertex);
+        vertices.put(start.value, processedVertex);
 
-        while (processedVertex != null && processedVertex.node != end) {
-            if (solvedVertices.get(processedVertex.node.value) == null) {
-                solvedVertices.put(processedVertex.node.value, processedVertex);
-                pendingVertices.remove(processedVertex.node.value);
+        boolean targetFound = false;
 
-                int prevDistance = processedVertex.distance;
+        while (!pendingVertexQueue.isEmpty() && !targetFound) {
+            Vertex nextVertex = pendingVertexQueue.poll();
+
+            solvedVertices.put(nextVertex.node.value, nextVertex);
+
+            if (nextVertex.node != end) {
+                int prevDistance = nextVertex.distance;
                 int childIndex = 0;
-                List<GraphNode<String>> adjacentNodes = processedVertex.node.adjacentNodes;
-                List<Integer> distances = processedVertex.node.adjacentNodesWeight;
+                List<GraphNode<String>> adjacentNodes = nextVertex.node.adjacentNodes;
+                List<Integer> distances = nextVertex.node.adjacentNodesWeight;
 
                 for (GraphNode<String> childNode : adjacentNodes) {
-                    if (solvedVertices.get(childNode.value) == null) {
-                        int childDistance = distances.get(childIndex) + prevDistance;
+                    int childDistance = distances.get(childIndex) + prevDistance;
 
-                        Vertex pendingChildVertex = pendingVertices.get(childNode.value);
-                        if (pendingChildVertex == null) {
-                            pendingChildVertex = new Vertex(childNode, childDistance, processedVertex.node);
+                    Vertex pendingChildVertex = vertices.get(childNode.value);
+                    if (pendingChildVertex == null) {
+                        pendingChildVertex = new Vertex(childNode, childDistance, nextVertex.node);
 
-                            pendingVertices.put(pendingChildVertex.node.value, pendingChildVertex);
-                            pendingVertexQueue.add(pendingChildVertex);
-                        } else {
-                            if (pendingChildVertex.distance > childDistance) {
-                                pendingChildVertex.distance = childDistance;
-                                pendingChildVertex.previousNode = processedVertex.node;
-                            }
+                        vertices.put(pendingChildVertex.node.value, pendingChildVertex);
+                        pendingVertexQueue.add(pendingChildVertex);
+                    } else {
+                        if (pendingChildVertex.distance > childDistance) {
+                            pendingChildVertex.distance = childDistance;
+                            pendingChildVertex.previousNode = nextVertex.node;
                         }
                     }
 
                     childIndex++;
                 }
+            } else {
+                targetFound = true;
             }
-
-            processedVertex = pendingVertexQueue.poll();
         }
 
-        if (processedVertex == null) {
+        if (!targetFound) {
             return Collections.emptyList();
         }
-
-        solvedVertices.put(processedVertex.node.value, processedVertex);
 
         // Now the solvedNodes Map is processed to obtain the route
         GraphNode<String> routeNode = end;
