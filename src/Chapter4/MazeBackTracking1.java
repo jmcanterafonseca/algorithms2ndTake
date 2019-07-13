@@ -1,6 +1,10 @@
 package Chapter4;
 
 // The rat can move in the maze downwards and forwards
+// Implements a basic Dynamic Programming Backtracking Algorithm
+// in which recursively we are trying to find a path from start to end
+// The path found is not necessarily the shortest path
+// To find the shortest path we would need to use a A* algorithm
 public class MazeBackTracking1 {
     public static int[][] solution(Point start, Point end, int[][] maze) {
         int[][] out = new int[maze.length][maze.length];
@@ -41,11 +45,13 @@ public class MazeBackTracking1 {
 
     // Returns true if the rat can move from position x to position y
     private static boolean canMove(int x, int y, int[][] maze) {
+        boolean out = false;
+
         if (x < maze.length && y < maze.length) {
-            return maze[x][y] == 1;
+            out = maze[x][y] == 1;
         }
 
-        return false;
+        return out;
     }
 
     public static class Point {
