@@ -23,10 +23,11 @@ public class Floyd_Warshall_Algorithm_Ext {
 
             Collection<String> adjacents = graph.distances.get(gv.label).keySet();
             for (String adjacent : adjacents) {
-                vdistanceMap.put(adjacent, new VertexDistancePair(graph.distances.get(gv.label).get(adjacent),
-                        gv));
+                vdistanceMap.put(adjacent, new VertexDistancePair(
+                        graph.distances.get(gv.label).get(adjacent), gv));
             }
 
+            // From a to a shortest distance is 0 with previous node being null
             vdistanceMap.put(gv.label, new VertexDistancePair(0, null));
         }
 
