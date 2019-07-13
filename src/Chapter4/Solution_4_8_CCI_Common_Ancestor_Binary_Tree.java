@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.BinaryTreeNode;
+
 // Given two nodes of a binary tree finds the common ancestor
 // Assumption is that both nodes actually exist within the tree
 public class Solution_4_8_CCI_Common_Ancestor_Binary_Tree {

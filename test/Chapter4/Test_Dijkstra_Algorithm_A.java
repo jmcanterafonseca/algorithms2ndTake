@@ -1,5 +1,6 @@
 package Chapter4;
 
+import datastr.GraphNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

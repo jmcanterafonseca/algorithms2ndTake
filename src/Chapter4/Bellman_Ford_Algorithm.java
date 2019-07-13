@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.GraphNode;
+
 import java.util.*;
 
 // Implements the Bellman-Ford Algorithm to find the path with less cost

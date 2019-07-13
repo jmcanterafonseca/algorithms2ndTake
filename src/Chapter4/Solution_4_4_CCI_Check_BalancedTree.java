@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.BinaryTreeNode;
+
 // Checks whether a binary tree is a balanced tree
 public class Solution_4_4_CCI_Check_BalancedTree {
     public static boolean solution(BinaryTreeNode<Integer> root) {

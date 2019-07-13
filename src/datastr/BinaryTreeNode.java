@@ -1,4 +1,4 @@
-package Chapter4;
+package datastr;
 
 public class BinaryTreeNode<T> {
     // Left and right child

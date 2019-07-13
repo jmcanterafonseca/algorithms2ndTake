@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.GraphNode;
+
 import java.util.*;
 
 // Finds the "next node" (i.e. in-order successor) of a given node in a BST

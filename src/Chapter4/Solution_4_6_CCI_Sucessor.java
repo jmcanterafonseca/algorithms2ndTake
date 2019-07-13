@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.BinaryTreeNode;
+
 // Finds the "next node" (i.e. in-order successor) of a given node in a BST
 public class Solution_4_6_CCI_Sucessor {
     public static BinaryTreeNode<Integer> solution(BinaryTreeNode<Integer> target) {

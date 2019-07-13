@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.Point;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

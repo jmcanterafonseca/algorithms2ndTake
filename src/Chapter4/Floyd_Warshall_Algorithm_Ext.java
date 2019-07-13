@@ -1,5 +1,8 @@
 package Chapter4;
 
+import datastr.GraphAsMatrix;
+import datastr.GraphVertex;
+
 import java.util.*;
 
 // Floyd Warshall algorithm

@@ -1,6 +1,5 @@
-package Chapter4;
+package datastr;
 
-import java.util.Collection;
 import java.util.Map;
 
 // Represents a Graph as a matrix with direct adjacencies between vertices

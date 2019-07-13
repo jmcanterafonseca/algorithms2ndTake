@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.Point;
+
 // The rat can move in the maze downwards and forwards
 // Implements a basic Dynamic Programming Backtracking Algorithm
 // in which recursively we are trying to find a path from start to end

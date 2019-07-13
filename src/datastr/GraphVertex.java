@@ -1,4 +1,4 @@
-package Chapter4;
+package datastr;
 
 public class GraphVertex<T> {
     public T label;

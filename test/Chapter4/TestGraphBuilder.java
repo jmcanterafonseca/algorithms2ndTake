@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.*;
+
 import java.util.*;
 import java.util.function.Function;
 

@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.BinaryTreeNode;
+
 // Checks whether a binary tree is a Binary Search Tree (BST)
 // This was my first solution and apart from being inefficient It does not work in all cases
 public class Solution_4_5_CCI_Check_BST_Does_Not_Work {

@@ -1,5 +1,7 @@
 package Chapter4;
 
+import datastr.BinaryTreeNode;
+
 // Checks whether a binary tree is a Binary Search Tree (BST)
 public class Solution_4_5_CCI_Check_BST {
     public static boolean solution(BinaryTreeNode<Integer> root) {

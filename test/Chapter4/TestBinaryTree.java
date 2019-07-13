@@ -1,6 +1,8 @@
 package Chapter4;
 
 
+import datastr.BinaryTreeNode;
+
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;

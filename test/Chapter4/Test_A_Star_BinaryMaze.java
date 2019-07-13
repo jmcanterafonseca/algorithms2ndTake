@@ -1,5 +1,6 @@
 package Chapter4;
 
+import datastr.Point;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
