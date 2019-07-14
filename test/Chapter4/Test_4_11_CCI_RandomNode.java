@@ -144,4 +144,26 @@ public class Test_4_11_CCI_RandomNode {
 
         assertEquals(null, testTree.root);
     }
+
+    @Test
+    void test11() {
+        String tree1 = "2\n";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree1);
+
+        BinaryTreeNode<Integer> out = Solution_4_11_CCI_RandomNode.solution(testTree);
+
+        assertEquals(out, testTree.root);
+    }
+
+    @Test
+    void test12() {
+        String tree1 = "2\n2->,4\n4->,5";
+
+        TestBinaryTree testTree = TestBinaryTreeBuilder.build(tree1);
+
+        BinaryTreeNode<Integer> out = Solution_4_11_CCI_RandomNode.solution(testTree);
+
+        System.out.println(out.value);
+    }
 }

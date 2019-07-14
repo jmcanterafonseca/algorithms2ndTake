@@ -3,7 +3,8 @@ package Chapter4;
 import datastr.BinaryTreeNode;
 import datastr.TestBinaryTree;
 
-// This solution only works if the path starts with the root node
+// Cracking the coding interview exercise 4.12
+// Calculates the number of paths which sum the target sum
 public class Solution_4_12_CCI_Paths_With_Sum {
     public static int solution(TestBinaryTree tree, int targetSum) {
         IntegerHolder holder = new IntegerHolder();
