@@ -1,4 +1,4 @@
-package Chapter4;
+package datastr;
 
 import datastr.GraphNode;
 

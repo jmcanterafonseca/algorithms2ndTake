@@ -1,6 +1,7 @@
 package Chapter4;
 
 import datastr.BinaryTreeNode;
+import datastr.TestBinaryTree;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

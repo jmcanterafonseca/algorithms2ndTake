@@ -1,6 +1,4 @@
-package Chapter4;
-
-import datastr.BinaryTreeNode;
+package datastr;
 
 import java.util.HashMap;
 import java.util.Map;

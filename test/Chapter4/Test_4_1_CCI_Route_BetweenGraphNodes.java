@@ -1,6 +1,8 @@
 package Chapter4;
 
 import datastr.GraphNode;
+import datastr.TestGraph;
+import datastr.TestGraphBuilder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

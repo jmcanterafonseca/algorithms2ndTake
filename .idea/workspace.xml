@@ -2,47 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/BinaryTreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm_Ext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Floyd_Warshall_Algorithm_Ext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphAsMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphAsVertexEdge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphEdge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphPathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/GraphPathFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/GraphVertex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_3_CCI_List_Of_Depths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_3_CCI_List_Of_Depths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_4_CCI_Check_BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_4_CCI_Check_BalancedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST_Does_Not_Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_5_CCI_Check_BST_Does_Not_Work.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_6_CCI_Sucessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_6_CCI_Sucessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_BuildOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_BuildOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_8_CCI_Common_Ancestor_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_8_CCI_Common_Ancestor_Binary_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_9_BST_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_9_BST_Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_Detect_Graph_Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_Detect_Graph_Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_2_CCI_Minimal_Height_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_2_CCI_Minimal_Height_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_3_CCI_List_Of_Depths.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_3_CCI_List_Of_Depths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_6_CCI_Sucessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_6_CCI_Sucessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_8_CCI_Common_Ancestor_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_8_CCI_Common_Ancestor_Binary_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_9_CCI_BST_Sequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_9_CCI_BST_Sequences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_A_Star_BinaryMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_A_Star_BinaryMaze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Detect_Graph_Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Detect_Graph_Loops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" afterDir="false" />
@@ -50,7 +24,7 @@
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="564">
@@ -97,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2527">
-              <caret line="138" column="53" selection-start-line="138" selection-start-column="53" selection-end-line="138" selection-end-column="53" />
+              <caret line="140" column="53" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -136,11 +110,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dijkstra_Algorithm_A_v2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dijkstra_Algorithm_A_v2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
+            <state relative-caret-position="-372">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A_v2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
-              <caret line="128" column="64" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
+              <caret line="130" column="64" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -273,7 +250,19 @@
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -506,9 +495,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 24m 04s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 24m 16s.xml">
       <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
     </history-entry>
@@ -536,9 +522,13 @@
     <history-entry file="Test_Dijkstra_Algorithm_A_v2 - 2019.07.13 at 19h 16m 53s.xml">
       <configuration name="Test_Dijkstra_Algorithm_A_v2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_algorithms2ndtake - 2019.07.13 at 19h 26m 43s.xml">
+      <configuration name="All in algorithms2ndtake" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1892" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -619,19 +609,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java</url>
-          <line>98</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java</url>
-          <line>26</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java</url>
-          <line>21</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
@@ -667,7 +657,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java</url>
-          <line>111</line>
+          <line>112</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
@@ -695,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_BuildOrder.java" />
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/datastr/TestBinaryTreeBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
@@ -749,7 +739,7 @@
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" />
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" />
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/datastr/TestBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4085">
           <caret line="229" selection-start-line="229" selection-end-line="229" />
@@ -798,7 +788,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/datastr/TestGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
@@ -816,7 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/datastr/TestGraphBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
@@ -921,7 +911,7 @@
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2527">
-          <caret line="138" column="53" selection-start-line="138" selection-start-column="53" selection-end-line="138" selection-end-column="53" />
+          <caret line="140" column="53" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -960,17 +950,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A_v2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="128" column="64" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
+          <caret line="130" column="64" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -978,6 +961,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

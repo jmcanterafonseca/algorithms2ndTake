@@ -1,6 +1,4 @@
-package Chapter4;
-
-import datastr.*;
+package datastr;
 
 import java.util.*;
 import java.util.function.Function;
