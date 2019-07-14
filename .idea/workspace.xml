@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestBinaryTreeBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/TestGraphBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_2_CCI_Minimal_Height_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_2_CCI_Minimal_Height_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_3_CCI_List_Of_Depths.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_3_CCI_List_Of_Depths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST_Does_Not_Work.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_6_CCI_Sucessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_6_CCI_Sucessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_8_CCI_Common_Ancestor_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_8_CCI_Common_Ancestor_Binary_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_9_CCI_BST_Sequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_9_CCI_BST_Sequences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Detect_Graph_Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Detect_Graph_Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Floyd_Warshall_Algorithm_Ext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Graph_Path_Finder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_Pretty_Print_Binary_Tree.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,37 +35,10 @@
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="564">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2527">
-              <caret line="140" column="53" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_MazeBackTracking1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-653">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MazeBackTracking1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4/MazeBackTracking1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -98,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2288#2289#0" expanded="true" />
@@ -110,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dijkstra_Algorithm_A_v2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dijkstra_Algorithm_A_v2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-372">
@@ -118,6 +67,45 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_4_12_CCI_Paths_With_Sum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_12_CCI_Paths_With_Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-311">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_4_11_CCI_RandomNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_4_4_CCI_Check_BalancedTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_4_12_CCI_Paths_With_Sum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_12_CCI_Paths_With_Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -131,20 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastr/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test_A_Star_BinaryMaze.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_A_Star_BinaryMaze.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+              <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_6_CCI_Sucessor.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_6_CCI_Sucessor.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_Sucessor.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Detect_Graph_Loops.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_Detect_Graph_Loops.java" />
@@ -218,6 +195,8 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_12_CCI_Paths_With_Sum.java" />
+        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_12_CCI_Paths_With_Sum.java" />
       </list>
     </option>
   </component>
@@ -305,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in algorithms2ndtake">
+  <component name="RunManager" selected="JUnit.Test_4_12_CCI_Paths_With_Sum">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -317,6 +296,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test_4_12_CCI_Paths_With_Sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_4_12_CCI_Paths_With_Sum" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -338,29 +340,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter4" />
       <option name="MAIN_CLASS_NAME" value="Chapter4.Test_A_Star_BinaryMaze" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Test_Dijkstra_Algorithm_A" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Dijkstra_Algorithm_A" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -457,19 +436,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
       <item itemvalue="JUnit.Test_MazeBackTracking1" />
       <item itemvalue="JUnit.Test_A_Star_BinaryMaze" />
       <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A_v2" />
       <item itemvalue="JUnit.All in algorithms2ndtake" />
+      <item itemvalue="JUnit.Test_4_12_CCI_Paths_With_Sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_4_12_CCI_Paths_With_Sum" />
         <item itemvalue="JUnit.All in algorithms2ndtake" />
         <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A_v2" />
         <item itemvalue="JUnit.Test_A_Star_BinaryMaze" />
         <item itemvalue="JUnit.Test_MazeBackTracking1" />
-        <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A" />
       </list>
     </recent_temporary>
   </component>
@@ -495,35 +474,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 24m 16s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 16m 27s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_MazeBackTracking1 - 2019.07.13 at 18h 24m 48s.xml">
-      <configuration name="Test_MazeBackTracking1" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 17m 31s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 26m 05s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 21m 53s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 26m 43s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 23m 22s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 27m 26s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 36m 32s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 31m 06s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 37m 12s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_A_Star_BinaryMaze - 2019.07.13 at 18h 40m 12s.xml">
-      <configuration name="Test_A_Star_BinaryMaze" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 39m 00s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A_v2 - 2019.07.13 at 19h 11m 31s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A_v2" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 41m 30s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Dijkstra_Algorithm_A_v2 - 2019.07.13 at 19h 16m 53s.xml">
-      <configuration name="Test_Dijkstra_Algorithm_A_v2" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 53m 27s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_algorithms2ndtake - 2019.07.13 at 19h 26m 43s.xml">
-      <configuration name="All in algorithms2ndtake" configurationId="JUnit" />
+    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 56m 46s.xml">
+      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -539,11 +518,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35054946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35054946" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.15856236" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -667,20 +646,23 @@
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/Chapter4/Test_4_12_CCI_Paths_With_Sum.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter4/Solution_4_12_CCI_Paths_With_Sum.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="72" />
+      <option name="time" value="76" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_2_CCI_Minimal_Height_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_7_CCI_BuildOrder.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/CircularDependencyDetected.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/GraphPathFinder.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_BuildOrder.java" />
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" />
@@ -738,7 +720,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" />
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" />
     <entry file="file://$PROJECT_DIR$/src/datastr/TestBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4085">
@@ -918,7 +899,7 @@
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_A_Star_BinaryMaze.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -928,7 +909,7 @@
     <entry file="file://$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2288#2289#0" expanded="true" />
@@ -960,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Bellman_Ford_Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -974,6 +955,37 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_4_CCI_Check_BalancedTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_12_CCI_Paths_With_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_12_CCI_Paths_With_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
         </state>
       </provider>
     </entry>
