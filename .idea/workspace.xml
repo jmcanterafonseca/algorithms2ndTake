@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Solution_4_12_CCI_Paths_With_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Solution_4_12_CCI_Paths_With_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,17 +21,89 @@
       <file leaf-file-name="Test_4_11_CCI_RandomNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
+            <state relative-caret-position="420">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_4_11_CCI_RandomNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution_4_11_CCI_RandomNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="1045">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter10/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter10/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_BubbleSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_SelectionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Bellman_Ford_Algorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A_Star_BinaryMaze.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_4_1_CCI_Route_BetweenGraphNodes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_Detect_Graph_Loops.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/Solution_Detect_Graph_Loops.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/CircularDependencyDetected.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_4_7_CCI_BuildOrder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphPathFinder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/GraphLoopDetector.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_1_CCI_Route_BetweenGraphNodes.java" />
@@ -109,6 +173,10 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_12_CCI_Paths_With_Sum.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/test/Chapter10/Test_SelectionSort.java" />
+        <option value="$PROJECT_DIR$/test/Chapter10/Test_BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/SelectionSort.java" />
       </list>
     </option>
   </component>
@@ -148,7 +216,7 @@
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastr" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
@@ -160,6 +228,12 @@
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,11 +257,11 @@
       <recent name="Chapter1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter10" />
       <recent name="Chapter4" />
       <recent name="Chapter3" />
       <recent name="Chapter2" />
       <recent name="Misc" />
-      <recent name="Chapter1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,15 +276,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_4_11_CCI_RandomNode">
+  <component name="RunManager" selected="JUnit.Chapter10 in algorithms2ndtake">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="All in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter10 in algorithms2ndtake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Chapter10" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -269,18 +349,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_A_Star_BinaryMaze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_BubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastr.*" />
+          <option name="PATTERN" value="Chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_A_Star_BinaryMaze" />
+      <option name="PACKAGE_NAME" value="Chapter10" />
+      <option name="MAIN_CLASS_NAME" value="Chapter10.Test_BubbleSort" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -292,18 +372,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_Dijkstra_Algorithm_A_v2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_SelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastr.*" />
+          <option name="PATTERN" value="Chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter4" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Test_Dijkstra_Algorithm_A_v2" />
+      <option name="PACKAGE_NAME" value="Chapter10" />
+      <option name="MAIN_CLASS_NAME" value="Chapter10.Test_SelectionSort" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -354,19 +434,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_A_Star_BinaryMaze" />
-      <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A_v2" />
-      <item itemvalue="JUnit.All in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_4_12_CCI_Paths_With_Sum" />
       <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
+      <item itemvalue="JUnit.Test_BubbleSort" />
+      <item itemvalue="JUnit.Test_SelectionSort" />
+      <item itemvalue="JUnit.Chapter10 in algorithms2ndtake" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Chapter10 in algorithms2ndtake" />
+        <item itemvalue="JUnit.Test_SelectionSort" />
+        <item itemvalue="JUnit.Test_BubbleSort" />
         <item itemvalue="JUnit.Test_4_11_CCI_RandomNode" />
         <item itemvalue="JUnit.Test_4_12_CCI_Paths_With_Sum" />
-        <item itemvalue="JUnit.All in algorithms2ndtake" />
-        <item itemvalue="JUnit.Test_Dijkstra_Algorithm_A_v2" />
-        <item itemvalue="JUnit.Test_A_Star_BinaryMaze" />
       </list>
     </recent_temporary>
   </component>
@@ -392,39 +472,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 37m 12s.xml">
-      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 39m 00s.xml">
-      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 41m 30s.xml">
-      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 53m 27s.xml">
-      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 10h 56m 46s.xml">
-      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_12_CCI_Paths_With_Sum - 2019.07.14 at 11h 01m 43s.xml">
-      <configuration name="Test_4_12_CCI_Paths_With_Sum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.07.14 at 11h 56m 02s.xml">
+    <history-entry file="Test_4_11_CCI_RandomNode - 2019.07.14 at 12h 01m 20s.xml">
       <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.07.14 at 11h 56m 40s.xml">
+    <history-entry file="Test_4_11_CCI_RandomNode - 2019.07.14 at 12h 01m 36s.xml">
       <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.07.14 at 11h 58m 31s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
+    <history-entry file="Test_BubbleSort - 2019.07.17 at 11h 23m 32s.xml">
+      <configuration name="Test_BubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_4_11_CCI_RandomNode - 2019.07.14 at 11h 58m 44s.xml">
-      <configuration name="Test_4_11_CCI_RandomNode" configurationId="JUnit" />
+    <history-entry file="Test_SelectionSort - 2019.07.17 at 11h 46m 06s.xml">
+      <configuration name="Test_SelectionSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_BubbleSort - 2019.07.17 at 11h 47m 09s.xml">
+      <configuration name="Test_BubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_SelectionSort - 2019.07.17 at 11h 47m 20s.xml">
+      <configuration name="Test_SelectionSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_SelectionSort - 2019.07.17 at 11h 48m 26s.xml">
+      <configuration name="Test_SelectionSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_SelectionSort - 2019.07.17 at 11h 48m 43s.xml">
+      <configuration name="Test_SelectionSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_SelectionSort - 2019.07.17 at 11h 49m 41s.xml">
+      <configuration name="Test_SelectionSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter10_in_algorithms2ndtake - 2019.07.17 at 11h 49m 48s.xml">
+      <configuration name="Chapter10 in algorithms2ndtake" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1892" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -575,21 +656,17 @@
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="76" />
+      <option name="time" value="77" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_7_CCI_BuildOrder.java" />
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_5_CCI_Check_BST.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/datastr/TestBinaryTreeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastr/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -636,16 +713,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_10_CCI_Check_Subtree.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java" />
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Misc/Solution_KBest_Select.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -797,33 +864,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2527">
-          <caret line="140" column="53" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_A_Star_BinaryMaze.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-            <element signature="e#5872#5873#0" expanded="true" />
-            <element signature="e#5926#5927#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -904,20 +950,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution_4_11_CCI_RandomNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="1045">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_1_CCI_Route_BetweenGraphNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_11_CCI_RandomNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_Bellman_Ford_Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
