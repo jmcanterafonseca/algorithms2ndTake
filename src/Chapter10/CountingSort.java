@@ -4,7 +4,7 @@ package Chapter10;
 // It works by counting the number of objects having distinct key values (kind of hashing).
 // Then doing some arithmetic to calculate the position of each object in the output sequence.
 public class CountingSort {
-    // The range is passed as parameter
+    // The range is passed as parameter (min, max)
     public static void sort(int[] array, int min, int max) {
         // Length of the interval to store counts
         int intervalLength = Math.abs(min) + Math.abs(max) + 1;

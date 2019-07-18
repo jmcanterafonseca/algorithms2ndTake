@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter10/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter10/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter10/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter10/Test_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter10/Test_BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter10/Test_MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter10/Test_MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter10/Test_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter10/Test_SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/CountingSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,15 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter10/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +84,8 @@
       <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter10/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="317">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#904#905#0" expanded="true" />
                 <element signature="e#959#960#0" expanded="true" />
@@ -111,23 +96,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CountingSortv2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter10/CountingSortv2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#1927#1928#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2090#2091#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_CountingSortv2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_CountingSortv2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter10/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
               <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -147,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter4/BinaryTreePrettyPrinter.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_9_BST_Sequence.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_4_9_CCI_BST_Sequences.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_10_Check_Subtree.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution_4_10_CCI_Check_Subtree.java" />
@@ -197,7 +193,9 @@
         <option value="$PROJECT_DIR$/src/Chapter10/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/Chapter10/RadixSort.java" />
         <option value="$PROJECT_DIR$/test/Chapter10/Test_CountingSort.java" />
+        <option value="$PROJECT_DIR$/test/Chapter10/Test_CountingSortv2.java" />
         <option value="$PROJECT_DIR$/src/Chapter10/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/CountingSortv2.java" />
       </list>
     </option>
   </component>
@@ -231,24 +229,12 @@
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms2ndtake" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms2ndtake" type="b2602c69:ProjectViewProjectNode" />
@@ -347,6 +333,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Test_CountingSortv2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms2ndtake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter10" />
+      <option name="MAIN_CLASS_NAME" value="Chapter10.Test_CountingSortv2" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Test_MergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
@@ -382,29 +391,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Chapter10" />
       <option name="MAIN_CLASS_NAME" value="Chapter10.Test_QuickSort" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Test_SelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms2ndtake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter10" />
-      <option name="MAIN_CLASS_NAME" value="Chapter10.Test_SelectionSort" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -455,19 +441,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test_SelectionSort" />
       <item itemvalue="JUnit.Chapter10 in algorithms2ndtake" />
       <item itemvalue="JUnit.Test_MergeSort" />
       <item itemvalue="JUnit.Test_QuickSort" />
       <item itemvalue="JUnit.Test_CountingSort" />
+      <item itemvalue="JUnit.Test_CountingSortv2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test_CountingSort" />
+        <item itemvalue="JUnit.Test_CountingSortv2" />
         <item itemvalue="JUnit.Test_QuickSort" />
         <item itemvalue="JUnit.Test_MergeSort" />
         <item itemvalue="JUnit.Chapter10 in algorithms2ndtake" />
-        <item itemvalue="JUnit.Test_SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -493,24 +479,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_MergeSort - 2019.07.17 at 13h 01m 31s.xml">
-      <configuration name="Test_MergeSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_QuickSort - 2019.07.17 at 13h 34m 27s.xml">
-      <configuration name="Test_QuickSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_QuickSort - 2019.07.17 at 13h 36m 12s.xml">
-      <configuration name="Test_QuickSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_QuickSort - 2019.07.17 at 13h 37m 13s.xml">
-      <configuration name="Test_QuickSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_QuickSort - 2019.07.17 at 13h 38m 07s.xml">
-      <configuration name="Test_QuickSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_QuickSort - 2019.07.17 at 13h 39m 23s.xml">
-      <configuration name="Test_QuickSort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_QuickSort - 2019.07.17 at 13h 42m 56s.xml">
       <configuration name="Test_QuickSort" configurationId="JUnit" />
     </history-entry>
@@ -522,6 +490,24 @@
     </history-entry>
     <history-entry file="Test_CountingSort - 2019.07.18 at 09h 24m 28s.xml">
       <configuration name="Test_CountingSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_CountingSortv2 - 2019.07.18 at 10h 09m 21s.xml">
+      <configuration name="Test_CountingSortv2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_CountingSortv2 - 2019.07.18 at 10h 16m 43s.xml">
+      <configuration name="Test_CountingSortv2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_CountingSortv2 - 2019.07.18 at 10h 24m 32s.xml">
+      <configuration name="Test_CountingSortv2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_CountingSortv2 - 2019.07.18 at 10h 29m 30s.xml">
+      <configuration name="Test_CountingSortv2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_CountingSortv2 - 2019.07.18 at 10h 33m 49s.xml">
+      <configuration name="Test_CountingSortv2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_CountingSortv2 - 2019.07.18 at 10h 35m 50s.xml">
+      <configuration name="Test_CountingSortv2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -536,11 +522,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35054946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35054946" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.15856236" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -548,7 +534,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25714287" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25714287" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -688,19 +674,29 @@
           <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter10/CountingSortv2.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/Chapter10/Test_CountingSort.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter10/CountingSort.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="78" />
+      <option name="time" value="81" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Chapter4/Test_4_9_CCI_BST_Sequences.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_2_CCI_Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/Solution_1_4_CCI_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1071,10 +1067,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_CountingSortv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/CountingSortv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1083,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter10/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="317">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#904#905#0" expanded="true" />
             <element signature="e#959#960#0" expanded="true" />
