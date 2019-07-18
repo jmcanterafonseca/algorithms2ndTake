@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class Test_BubbleSort {
+public class Test_QuickSort {
     private int[] arr = {-3, 10, -5, 7, 1, 22, -8};
 
     private int[] solution = {-8, -5, -3, 1, 7, 10, 22};
 
     @Test
     void test1() {
-        BubbleSort.sort(arr);
+        QuickSort.sort(arr);
 
         assertArrayEquals(solution, arr);
     }
@@ -20,7 +20,7 @@ public class Test_BubbleSort {
     void test2() {
         int[] arr = {};
 
-        BubbleSort.sort(arr);
+        QuickSort.sort(arr);
 
         int[] solution = {};
 
@@ -31,7 +31,7 @@ public class Test_BubbleSort {
     void test3() {
         int[] arr = {1};
 
-        BubbleSort.sort(arr);
+        QuickSort.sort(arr);
 
         int[] solution = {1};
 

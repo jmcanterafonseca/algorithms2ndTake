@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class Test_MergeSort {
-    int[] arr = {-3, 10, -5, 7, 1, 22, -8};
+    private int[] arr = {-3, 10, -5, 7, 1, 22, -8};
 
-    int[] solution = {-8, -5, -3, 1, 7, 10, 22};
+    private int[] solution = {-8, -5, -3, 1, 7, 10, 22};
 
     @Test
     void test1() {

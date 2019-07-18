@@ -8,11 +8,11 @@ public class SelectionSort {
             return;
         }
 
-        for(int j = 0; j < list.length; j++) {
+        for (int j = 0; j < list.length; j++) {
             int min = Integer.MAX_VALUE;
             int minIndex = -1;
 
-            for(int k = j; k < list.length; k++) {
+            for (int k = j; k < list.length; k++) {
                 if (list[k] < min) {
                     min = list[k];
                     minIndex = k;

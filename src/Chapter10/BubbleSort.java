@@ -8,8 +8,8 @@ public class BubbleSort {
             return;
         }
 
-        for(int j = 0; j < list.length; j++) {
-            for(int k = j + 1; k < list.length; k++) {
+        for (int j = 0; j < list.length; j++) {
+            for (int k = j + 1; k < list.length; k++) {
                 if (list[j] > list[k]) {
                     int aux = list[j];
                     list[j] = list[k];

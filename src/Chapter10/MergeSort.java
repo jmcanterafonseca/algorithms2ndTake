@@ -30,7 +30,7 @@ public class MergeSort {
     // From low to middle. From middle to high
     private static void merge(int[] array, int[] helper, int low, int middle, int high) {
         // First both halves of the array are copied to the helper
-        for(int j = low; j <= high; j++) {
+        for (int j = low; j <= high; j++) {
             helper[j] = array[j];
         }
 
@@ -40,12 +40,11 @@ public class MergeSort {
 
         // The key to do the merge
         // The merge of course is done in the target array by using the helper
-        while(helperLeft <= middle && helperRight <= high) {
+        while (helperLeft <= middle && helperRight <= high) {
             if (helper[helperLeft] <= helper[helperRight]) {
                 array[current] = helper[helperLeft];
                 helperLeft++;
-            }
-            else {
+            } else {
                 array[current] = helper[helperRight];
                 helperRight++;
             }
