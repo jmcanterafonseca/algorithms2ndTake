@@ -3,6 +3,7 @@ package Chapter10;
 // Counting sort is a sorting technique based on keys between a specific range.
 // It works by counting the number of objects having distinct key values (kind of hashing).
 // Then doing some arithmetic to calculate the position of each object in the output sequence.
+// This version was taken from GeeksforGeeks but there is a simpler one (v2) based on a hash and lists
 public class CountingSort {
     // The range is passed as parameter (min, max)
     public static void sort(int[] array, int min, int max) {
