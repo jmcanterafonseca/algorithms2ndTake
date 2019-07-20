@@ -22,36 +22,29 @@ public class HeapSort {
 
     private static class MinHeap {
         private BinaryTreeNode<Integer> root;
+        private BinaryTreeNode<Integer> insertPoint;
+
+        private BinaryTreeNode<Integer> updateInsertPoint(BinaryTreeNode<Integer> node) {
+            BinaryTreeNode<Integer> current = node.parent;
+
+            while (current.left != null) {
+                current = current.left;
+            }
+
+            return current;
+        }
 
         public int min() {
             return root.value;
         }
 
-        private BinaryTreeNode<Integer> findInsertPoint(BinaryTreeNode<Integer> start) {
-            if (start == null) {
-                return null;
-            }
-
-            BinaryTreeNode<Integer> out;
-            if (start.left == null || start.right == null) {
-                return start;
-            }
-
-            out = findInsertPoint(start.left);
-
-            if (out == null) {
-                out = findInsertPoint(start.right);
-            }
-
-            return out;
-        }
-
         public void insert(int value) {
             if (root == null) {
                 root = new BinaryTreeNode<>(value);
+                insertPoint = root;
             } else {
                 BinaryTreeNode<Integer> newNode = new BinaryTreeNode<>(value);
-                BinaryTreeNode<Integer> insertPoint = findInsertPoint(root);
+                BinaryTreeNode<Integer> bubblePoint = insertPoint;
 
                 if (insertPoint.left == null) {
                     insertPoint.left = newNode;
@@ -59,15 +52,15 @@ public class HeapSort {
                 } else {
                     insertPoint.right = newNode;
                     newNode.parent = insertPoint;
+                    // Now the insert point is updated
+                    insertPoint = updateInsertPoint(newNode);
                 }
 
-                bubbleUp(insertPoint);
+                bubbleUp(bubblePoint);
             }
         }
 
         public void removeMin() {
-            BinaryTreeNode<Integer> insertPoint = findInsertPoint(root);
-
             if (insertPoint == root && insertPoint.left == null && insertPoint.right == null) {
                 root = null;
                 return;
