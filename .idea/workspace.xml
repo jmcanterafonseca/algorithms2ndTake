@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b656529-fd3c-4f4b-b236-94500125ec76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/Doubt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/Doubt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParlorFlavours.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Misc/ParlorFlavours.java">
+      <file leaf-file-name="VanishCodes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Misc/VanishCodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1767">
-              <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            <state relative-caret-position="189">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2347#2348#0" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_ParlorFlavours.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Misc/Test_ParlorFlavours.java">
+      <file leaf-file-name="Test_VanishCodes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Misc/Test_VanishCodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            <state relative-caret-position="351">
+              <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,9 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_MazeBackTracking1.java" />
-        <option value="$PROJECT_DIR$/test/Chapter4/Test_A_Star_BinaryMaze.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4/A_Star_BinaryMaze.java" />
         <option value="$PROJECT_DIR$/test/Chapter4/Test_Dijkstra_Algorithm_A_v2.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A_v2.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Dijkstra_Algorithm_A.java" />
@@ -111,10 +112,13 @@
         <option value="$PROJECT_DIR$/src/Misc/ParlourFlavours.java" />
         <option value="$PROJECT_DIR$/test/Misc/Test_ParlorFlavours.java" />
         <option value="$PROJECT_DIR$/src/Misc/ParlorFlavours.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
+        <option value="$PROJECT_DIR$/src/Misc/VanishCodes.java" />
+        <option value="$PROJECT_DIR$/test/Misc/Test_VanishCodes.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1866" />
     <option name="height" value="970" />
@@ -197,9 +201,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_ParlorFlavours">
-    <configuration name="Doubt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.Doubt" />
+  <component name="RunManager" selected="JUnit.Test_VanishCodes">
+    <configuration name="VanishCodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.VanishCodes" />
       <module name="algorithms2ndtake" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -281,7 +285,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test_WordSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_VanishCodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms2ndtake" />
       <extension name="coverage">
         <pattern>
@@ -292,7 +296,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Misc" />
-      <option name="MAIN_CLASS_NAME" value="Misc.Test_WordSquare" />
+      <option name="MAIN_CLASS_NAME" value="Misc.Test_VanishCodes" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -343,19 +347,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Doubt" />
-      <item itemvalue="JUnit.Test_WordSquare" />
       <item itemvalue="JUnit.Test_Anagrams" />
       <item itemvalue="JUnit.Test_Anagrams2" />
       <item itemvalue="JUnit.Test_ParlorFlavours" />
+      <item itemvalue="Application.VanishCodes" />
+      <item itemvalue="JUnit.Test_VanishCodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_VanishCodes" />
+        <item itemvalue="Application.VanishCodes" />
         <item itemvalue="JUnit.Test_ParlorFlavours" />
         <item itemvalue="JUnit.Test_Anagrams2" />
         <item itemvalue="JUnit.Test_Anagrams" />
-        <item itemvalue="Application.Doubt" />
-        <item itemvalue="JUnit.Test_WordSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -381,39 +385,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 11h 20m 01s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 41m 52s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 11h 26m 08s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 43m 42s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 00m 49s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 43m 56s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 00m 52s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 48m 45s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 01m 42s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 49m 52s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 05m 02s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 52m 49s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 34m 11s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 53m 56s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 40m 00s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 13h 56m 14s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 42m 02s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 14h 00m 29s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ParlorFlavours - 2020.04.28 at 12h 42m 49s.xml">
-      <configuration name="Test_ParlorFlavours" configurationId="JUnit" />
+    <history-entry file="Test_VanishCodes - 2020.05.02 at 14h 02m 50s.xml">
+      <configuration name="Test_VanishCodes" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1866" height="970" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -425,17 +429,17 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3080357" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30786774" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.336374" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6048387" visible="true" weight="0.22454448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6046128" visible="true" weight="0.24940476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.3951613" side_tool="true" visible="true" weight="0.22454448" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26004463" />
+      <window_info id="Favorites" order="2" sideWeight="0.39538714" side_tool="true" visible="true" weight="0.24940476" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2599772" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.15856236" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32928118" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,38 +635,23 @@
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/Misc/Test_VanishCodes.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Misc/VanishCodes.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="112" />
+      <option name="time" value="118" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter10/CountingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Chapter10/Test_HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter10/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter10/Solution_10_11_Peaks_And_Valleys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
@@ -1025,13 +1014,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Misc/Test_ParlorFlavours.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1039,6 +1032,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1767">
           <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Misc/VanishCodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Misc/Test_VanishCodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
